@@ -140,7 +140,7 @@ h1:hover {
 
 .p1 {
     width: 70%;
-    height: 2800px;
+    height: 3400px;
     border: 1px solid;
     margin: 0px 20px 0px 20px;
     margin-top: 50px;
@@ -150,16 +150,23 @@ h1:hover {
 
 .p2 {
     width: 27%;
-    height: 2800px;
+    height: 1960px;
     border: 1px solid;
     margin-top: 50px;
     box-shadow: 0px 10px 15px #ccc;
-    margin-bottom: 30px;
+}
+
+.p3 {
+    width: 27%;
+    height: 810px;
+    border: 1px solid;
+    margin-top: 30px;
+    box-shadow: 0px 10px 15px #ccc;
 }
 
 .con1 {
     display: grid;
-    gap: 10px;
+    gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     margin: 30px;
 }
@@ -173,6 +180,7 @@ h1:hover {
     text-align: center;
     border-radius: 12px;
     border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 .box1 img {
