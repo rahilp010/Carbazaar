@@ -21,6 +21,21 @@ body {
     position: fixed;
 }
 
+#i1 {
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+}
+
+.logo2 {
+    position: absolute;
+    margin: 8px 0px 0px -220px;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
 #i2 {
     position: absolute;
     right: 60px;
@@ -41,10 +56,10 @@ header {
 }
 
 .searchbar {
-    margin-left: 270px;
+    margin-left: 340px;
     position: absolute;
-    top: 35px;
-    width: 100%;
+    top: 15px;
+    width: 95%;
 }
 
 #se1 {
@@ -130,6 +145,7 @@ nav a:hover {
 .rating {
     position: absolute;
     margin-top: 5px;
+    margin-left: 10px;
     font-size: 18px;
     color: rgb(169, 169, 169);
     font-style: oblique;

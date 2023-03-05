@@ -56,16 +56,31 @@ nav a:hover {
     color: rgb(255, 0, 0);
 }
 
+#i1 {
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+}
+
+.logo2 {
+    position: absolute;
+    margin: 8px 0px 0px -220px;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
 .I {
     background-color: lightgray;
     margin: -10px 0px 0px -10px;
 }
 
 .searchbar {
-    margin-left: 270px;
+    margin-left: 340px;
     position: absolute;
-    top: 35px;
-    width: 98.5%;
+    top: 15px;
+    width: 95%;
 }
 
 h1 {
@@ -140,34 +155,34 @@ h1:hover {
 }
 
 .p1 {
-    width: 70%;
+    width: 69%;
     height: 3400px;
-    border: 1px solid;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
     margin: 0px 20px 0px 20px;
     margin-top: 50px;
-    box-shadow: 0px 10px 15px #ccc;
     margin-bottom: 30px;
 }
 
 .p2 {
     width: 27%;
     height: 1960px;
-    border: 1px solid;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
     margin-top: 50px;
-    box-shadow: 0px 10px 15px #ccc;
 }
 
 .p3 {
     width: 27%;
     height: 810px;
-    border: 1px solid;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
     margin-top: 30px;
-    box-shadow: 0px 10px 15px #ccc;
 }
 
 .con1 {
     display: grid;
-    gap: 40px;
+    gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     margin: 30px;
 }
