@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-    margin: 0px 20px 20px 25px;
+    margin: 0px 20px 40px 0px;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -121,13 +121,6 @@ nav a:hover {
     color: rgb(255, 0, 0);
 }
 
-.content1 {
-    width: 70%;
-    margin: 240px 20px 20px 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 10px 15px #b3b3b3;
-}
-
 .star {
     margin: -5px 20px 20px 50px;
     font-size: 25px;
@@ -147,12 +140,45 @@ nav a:hover {
     font-size: 20px;
 }
 
+.container {
+    width: 70%;
+    height: 245px;
+    margin: 240px 0px 0px 30px;
+}
+
+.container11 {
+    width: 26%;
+    height: 340px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+    margin: 200px 0px 0px 30px;
+}
+
+.container12 {
+    width: 26%;
+    height: 1900px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+    margin: 50px 0px 0px 30px;
+}
+
 .container2 {
-    margin-left: 25px;
+    width: 70%;
+    margin: 0px 0px 0px 30px;
+}
+
+.content1 {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+}
+
+.content2 {
+    width: 100%;
 }
 
 .cars {
-    width: 70%;
+    width: 100%;
     margin: 5px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #b3b3b3;
@@ -166,13 +192,19 @@ nav a:hover {
     border: 1px solid #ccc;
     border-radius: 7px;
     box-shadow: 0px 10px 15px #8b8b8b;
+    float: left;
 }
 
 .desc2 {
-    position: absolute;
-    left: 40%;
-    margin: 40px 0px 0px -190px;
+    float: left;
+    left: 0%;
+    margin: 0px 0px 0px 0px;
     font-size: 25px;
     letter-spacing: 2px;
     font-weight: bold;
+    display: block;
+}
+
+.ad1 img {
+    width: 200px;
 }
