@@ -21,26 +21,27 @@
 }
 
 .sign {
+    position: relative;
+    width: 100%;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 70px;
-    border: 1px solid #8b8b8b;
+    border: 2px solid #8b8b8b;
     border-radius: 13px;
-    padding: 10px;
-    background-color: white;
-    color: black;
+    padding: 13px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    left: 1%;
 }
 
 .sign:hover {
     color: red;
 }
 
-.I .searchbar #icon {
-    position: absolute;
+#icon {
+    position: relative;
     font-size: 40px;
-    top: 12%;
-    right: 23.8%;
     color: rgb(0, 0, 0);
+    bottom: -13px;
 }
 
 nav a {
