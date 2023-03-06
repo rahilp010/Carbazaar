@@ -253,6 +253,78 @@ form {
 .container1 {
     margin-top: 50px;
     width: 100%;
-    height: 500px;
+    height: 200px;
     border: 1px solid #ccc;
+}
+
+#f2 {
+    margin: 50px 0px 0px 60px;
+    float: left;
+}
+
+#d1 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 20px;
+    font-size: 30px;
+}
+
+#d2 {
+    position: absolute;
+    margin: 95px 0px 0px 20px;
+    font-size: 25px;
+}
+
+#f3 {
+    position: absolute;
+    margin: 40px 0px 0px 260px;
+}
+
+#d3 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 370px;
+    font-size: 30px;
+}
+
+#d4 {
+    position: absolute;
+    margin: 95px 0px 0px 370px;
+    font-size: 25px;
+}
+
+#f4 {
+    position: absolute;
+    margin: 50px 0px 0px 660px;
+}
+
+#d5 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 770px;
+    font-size: 30px;
+}
+
+#d6 {
+    position: absolute;
+    margin: 95px 0px 0px 770px;
+    font-size: 25px;
+}
+
+#f5 {
+    position: absolute;
+    margin: 50px 0px 0px 1060px;
+}
+
+#d7 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 770px;
+    font-size: 30px;
+}
+
+#d8 {
+    position: absolute;
+    margin: 95px 0px 0px 770px;
+    font-size: 25px;
 }
