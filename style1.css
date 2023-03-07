@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+.ma1 {
+    margin-left: 30px;
+}
+
 .fist {
     width: 100%;
 }
@@ -252,7 +256,8 @@ form {
 
 .container1 {
     margin-top: 50px;
-    width: 100%;
+    margin-left: -10px;
+    width: 150%;
     height: 200px;
     border: 1px solid #ccc;
 }
@@ -277,54 +282,88 @@ form {
 
 #f3 {
     position: absolute;
-    margin: 40px 0px 0px 260px;
+    margin: 40px 0px 0px 360px;
 }
 
 #d3 {
     font-weight: bold;
     position: absolute;
-    margin: 60px 0px 0px 370px;
+    margin: 60px 0px 0px 470px;
     font-size: 30px;
 }
 
 #d4 {
     position: absolute;
-    margin: 95px 0px 0px 370px;
+    margin: 95px 0px 0px 470px;
     font-size: 25px;
 }
 
 #f4 {
     position: absolute;
-    margin: 50px 0px 0px 660px;
+    margin: 50px 0px 0px 860px;
 }
 
 #d5 {
     font-weight: bold;
     position: absolute;
-    margin: 60px 0px 0px 770px;
+    margin: 60px 0px 0px 970px;
     font-size: 30px;
 }
 
 #d6 {
     position: absolute;
-    margin: 95px 0px 0px 770px;
+    margin: 95px 0px 0px 970px;
     font-size: 25px;
 }
 
 #f5 {
     position: absolute;
-    margin: 50px 0px 0px 1060px;
+    margin: 50px 0px 0px 1310px;
 }
 
 #d7 {
     font-weight: bold;
     position: absolute;
-    margin: 60px 0px 0px 770px;
+    margin: 60px 0px 0px 1450px;
     font-size: 30px;
 }
 
 #d8 {
     position: absolute;
-    margin: 95px 0px 0px 770px;
+    margin: 95px 0px 0px 1450px;
     font-size: 25px;
+}
+
+.m1 {
+    float: left;
+}
+
+.m2 {
+    position: absolute;
+    left: 40%;
+}
+
+.container2 {
+    margin-left: -10px;
+    width: 150%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+.componet2 {
+    margin: 80px 0px 0px 70px;
+}
+
+.componet3 {
+    margin: 80px 0px 0px 70px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #8b8b8b;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #8b8b8b;
 }
