@@ -1,0 +1,266 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.content {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+#s1 {
+    width: 100%;
+    margin: 0px 0px 20px -10px;
+    padding: 25px;
+    border: 1px outset lightgray;
+    background-color: lightslategray;
+}
+
+#s1 a {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.sign {
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px solid #8b8b8b;
+    border-radius: 13px;
+    padding: 13px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    left: 1%;
+}
+
+.sign:hover {
+    color: red;
+}
+
+#icon {
+    position: relative;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    bottom: -13px;
+}
+
+nav a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#i1 {
+    width: 110px;
+    margin: 10px 0px 0px 30px;
+}
+
+.logo2 {
+    position: absolute;
+    margin: 8px 0px 0px -220px;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+.I {
+    background-color: lightgray;
+    margin: -10px 0px 0px -10px;
+}
+
+.searchbar {
+    margin-left: 340px;
+    position: absolute;
+    top: 15px;
+    width: 95%;
+}
+
+.container1 {
+    margin-left: -10px;
+    width: 110%;
+    height: 530px;
+    margin-top: 250px;
+    border: 1px solid #8b8b8b;
+    box-shadow: 0px 10px 15px #ccc;
+}
+
+.component1 {}
+
+.component1 img {
+    margin-top: 40px;
+    margin-left: 70px;
+    float: left;
+    width: 37%;
+    height: 450px;
+    border: 1px solid #8b8b8b;
+    box-shadow: 0px 10px 15px #8b8b8b;
+}
+
+.star {
+    font-size: 25px;
+    color: gold;
+    z-index: 1;
+}
+
+.rating {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(123, 123, 123);
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.desc {
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 0px 43.4%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.desc1 {
+    position: relative;
+    top: 50px;
+    margin-left: 43.4%;
+}
+
+.desc2 {
+    position: relative;
+    top: 60px;
+    margin-left: 43.4%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.desc2 span {
+    font-size: 20px;
+    color: rgb(0, 179, 255);
+    margin-left: 1px;
+}
+
+.desc3 {
+    position: relative;
+    top: 70px;
+    font-size: 22px;
+    color: #8b8b8b;
+    margin-left: 43.4%;
+}
+
+#op1 {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 3px;
+    color: rgb(0, 179, 255);
+    font-weight: 600;
+}
+
+.b1 {
+    position: relative;
+    top: 100px;
+    margin-left: 43.4%;
+}
+
+.b1 input {
+    width: 380px;
+    height: 70px;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(0, 200, 255);
+    font-weight: 600;
+    color: white;
+}
+
+.b1 input:hover {
+    color: rgb(38, 0, 255);
+    cursor: pointer;
+}
+
+.i1 {
+    position: absolute;
+    border: 1px solid #ccc;
+    margin-left: 48%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 100%;
+}
+
+.i2 {
+    position: absolute;
+    border: 1px solid #ccc;
+    margin-left: 55%;
+    padding: 5px 11px 5px 10px;
+    border-radius: 100%;
+}
+
+#op2 {
+    position: relative;
+    top: 150px;
+    margin: 0px 0px 0px 43.4%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.s1 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #8b8b8b;
+}
+
+.c1 {
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    width: 70%;
+    height: 600px;
+    float: left;
+    margin: 40px 0px 0px 30px;
+}
+
+.c2 {
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin: 40px 0px 0px 40px;
+}
+
+.c1 h2 {
+    margin: 40px 0px 0px 50px;
+    font-size: 35px;
+}
+
+.c3 {
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    height: 500px;
+    margin: 40px 0px 0px 30px;
+}
+
+.c4 {
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    margin: -250px 0px 0px 40px;
+    height: 500px;
+    width: 25%;
+}
