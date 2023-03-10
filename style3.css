@@ -9,6 +9,7 @@ body {
 .content {
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 #s1 {
