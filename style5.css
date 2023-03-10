@@ -12,17 +12,100 @@ body {
     z-index: 5;
 }
 
-#s1 {
-    width: 100%;
-    margin: 0px 0px 20px -10px;
-    padding: 25px;
-    border: 1px outset lightgray;
-    background-color: lightslategray;
+#ser1 {
+    position: absolute;
+    top: 4px;
+    left: 62.5%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 19px;
+    background-color: darkblue;
 }
 
-#s1 a {
+
+/*navbar*/
+
+#angle {
+    margin-left: 10px;
+}
+
+.menu {
+    margin-left: -10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+    text-align: center;
+    z-index: 7;
+}
+
+.menu ul {
+    margin-left: -80px;
+    display: inline-flex;
+    list-style: none;
+    color: blue;
+}
+
+.menu ul li {
+    font-size: 20px;
+    width: 200px;
+    margin-left: 35px;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul :hover {
+    border-radius: 3px;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    margin-top: 17px;
     margin-left: 50px;
-    padding: 10px;
+}
+
+.submenu ul {
+    display: block;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.submenu ul li {
+    width: 250px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    margin-left: -20px;
+    text-align: left;
+}
+
+.submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.submenu ul li a:hover {
+    color: rgb(157, 157, 157);
+}
+
+.submenu2 {
+    display: none;
+}
+
+.ho1:hover .submenu2 {
+    position: absolute;
+    display: block;
+    margin-left: 140px;
+    margin-top: -40px;
+    background-color: aquamarine;
 }
 
 .sign {
@@ -30,16 +113,17 @@ body {
     width: 100%;
     text-decoration: none;
     font-size: 17px;
-    border: 2px solid #8b8b8b;
+    border: 2px solid #ccc;
     border-radius: 13px;
     padding: 13px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    left: 1%;
+    left: 4%;
+    box-shadow: 0px 10px 15px #c0c0c0;
 }
 
 .sign:hover {
-    color: red;
+    color: rgb(0, 21, 255);
 }
 
 #icon {
@@ -47,18 +131,7 @@ body {
     font-size: 40px;
     color: rgb(0, 0, 0);
     bottom: -13px;
-}
-
-nav a {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-align: center;
-    padding: 20px;
-}
-
-nav a:hover {
-    color: rgb(255, 0, 0);
+    margin-left: 30px;
 }
 
 #i1 {
@@ -82,10 +155,11 @@ nav a:hover {
 }
 
 .searchbar {
+    text-align: center;
     margin-left: 340px;
     position: absolute;
     top: 15px;
-    width: 95%;
+    width: 74%;
 }
 
 .container1 {
