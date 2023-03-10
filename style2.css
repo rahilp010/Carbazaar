@@ -1,10 +1,15 @@
 * {
+    
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section {
+    background-image: url("/image/cars/login back.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +18,10 @@ section {
 }
 
 .fbox {
-    position: relative;
+    background-color: white;
+    position:relative;
     width: 400px;
-    height: 450px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
