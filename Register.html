@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>Register | CarBazaar</title>
+    <link rel="stylesheet" href="style2_1.css">
 </head>
 
 <body>
@@ -14,7 +14,17 @@
         <div class="fbox">
             <div class="fvalue">
                 <form action="web1.html">
-                    <h2>Log-in</h2>
+                    <h2>Register Yourself</h2>
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">First Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <input type="text" required>
+                        <label for="">Last Name</label>
+                    </div>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <input type="email" required>
@@ -25,13 +35,13 @@
                         <input type="password" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox" name="remember_me" id="remember_me">Remember Me</label>
-                        <a href="#" style="margin-left: 10px;">Forget Password</a>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Confirm Password</label>
                     </div>
-                    <button>Log-in</button>
-                    <div class="register">
-                        <p>Don't Have a Account <a href="Register.html" style="margin-left: 10px;">Register</a></p>
+                    <div class="">
+                        <a href="web1.html"><button>Register</button></a>
                     </div>
                 </form>
             </div>
