@@ -9,7 +9,7 @@ body {
 .content {
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
 }
 
 #ser1 {
@@ -163,15 +163,10 @@ body {
 }
 
 h1 {
-    margin: 230px 0px 0px 20px;
-    font-size: 30px;
-    font-variant: small-caps;
-    border-bottom: 1px solid;
-    letter-spacing: 2px;
-}
-
-h1:hover {
-    transform: scaleY(1.5)
+    margin: 25px 20px 20px 50px;
+    padding-top: 20px;
+    font-size: 40px;
+    letter-spacing: 1.7px;
 }
 
 .con {
@@ -233,9 +228,28 @@ h1:hover {
     box-shadow: 0 10px 15px #ccc;
 }
 
+.container71 {
+    width: 75%;
+    height: 245px;
+    margin: 0px 0px 260px 20px;
+}
+
+.content71 {
+    margin-top: 240px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 260px;
+    box-shadow: 0px 10px 15px #8b8b8b;
+}
+
+.desc71 {
+    margin: 35px 20px 20px 50px;
+    font-size: 20px;
+}
+
 .p1 {
     width: 69%;
-    height: 3800px;
+    height: 5600px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin: 0px 20px 0px 20px;
@@ -245,23 +259,35 @@ h1:hover {
 
 .p2 {
     width: 27%;
-    height: 1960px;
+    height: 880px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .p3 {
     width: 27%;
-    height: 1410px;
+    height: 310px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.p4 {
+    width: 27%;
+    height: 680px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+    margin-top: 30px;
+    position: relative;
+    left: -26px;
 }
 
 .con1 {
     display: grid;
-    gap: 50px;
+    /* gap: 50px; */
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     margin: 30px;
 }
@@ -273,15 +299,50 @@ h1:hover {
 .box1 {
     padding: 20px;
     text-align: center;
-    border-radius: 12px;
-    border: 1px solid black;
-    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
 }
 
 .box1 img {
     width: 100%;
     height: 90px;
     margin-left: 0px;
+}
+
+.txt2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px 25px 25px 30px;
+}
+
+.con2 {
+    display: grid;
+    /* gap: 50px; */
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin: 30px;
+}
+
+.box2 img:hover {
+    transform: scale(1.1);
+}
+
+.box2 {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+}
+
+.con2 .box2 a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
 }
 
 #lan option {
@@ -295,6 +356,7 @@ h1:hover {
     width: 250%;
     height: 200px;
     border: 1px solid #ccc;
+    z-index: 1;
 }
 
 #f2 {
@@ -427,4 +489,48 @@ h1:hover {
     position: absolute;
     right: 2%;
     word-spacing: 30px;
+}
+
+.emi0 {
+    position: relative;
+    top: 30px;
+    left: 350px;
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+    z-index: 1;
+}
+
+.emi {
+    margin: 20px 0px 0px 20px;
+    font-size: 23px;
+    color: #6a6a6a;
+}
+
+.emi1 {
+    position: relative;
+    top: -115px;
+    margin: 20px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.emi2 {
+    position: relative;
+    top: -125px;
+    margin: 20px 0px 0px 20px;
+    font-size: 17px;
+}
+
+.emi3 input {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    top: -70px;
+    left: 20px;
+    font-size: 17px;
 }
