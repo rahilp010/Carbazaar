@@ -306,6 +306,8 @@ h2 {
     border: 1px solid #ccc;
     font-style: oblique;
     font-weight: bold;
+    background-color: rgb(0, 208, 255);
+    color: white;
 }
 
 .btn1:hover {

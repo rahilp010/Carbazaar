@@ -8,7 +8,7 @@
 }
 
 section {
-    background-image: url("/image/cars/login\ back.jpg");
+    background-image: url("../image/cars/login\ back.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@ section {
 h2 {
     font-size: 2em;
     text-align: center;
+    margin-top: -40px 0px 0px 0px;
 }
 
 .inputbox {
