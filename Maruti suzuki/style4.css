@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
 header h1 {
@@ -222,7 +223,7 @@ h2 {
 
 .container12 {
     width: 26%;
-    height: 1900px;
+    height: 1340px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin: 50px 0px 0px 30px;
@@ -277,6 +278,7 @@ h2 {
     margin: 60px 20px 20px 540px;
     font-size: 25px;
     letter-spacing: 1.5px;
+    font-weight: 700;
 }
 
 .desc21 {

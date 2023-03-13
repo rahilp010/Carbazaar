@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
 body {
@@ -260,7 +261,7 @@ h1 {
 
 .p2 {
     width: 27%;
-    height: 1040px;
+    height: 1340px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin-top: 50px;
@@ -290,9 +291,9 @@ h1 {
 
 .con1 {
     display: grid;
-    /* gap: 50px; */
+    gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    margin: 45px;
+    margin: 30px;
 }
 
 .box1 img:hover {
@@ -302,8 +303,9 @@ h1 {
 .box1 {
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 .box1 img {

@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
 }
 
 header h1 {
@@ -180,9 +181,9 @@ h1 {
 }
 
 h2 {
-    margin: 0px 20px 40px 0px;
+    margin: 0px 20px 40px 10px;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1.4px;
 }
 
 .star {
@@ -222,15 +223,15 @@ h2 {
 
 .container12 {
     width: 26%;
-    height: 1900px;
+    height: 1370px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin: 50px 0px 0px 30px;
 }
 
 .container13 {
-    width: 70%;
-    height: 640px;
+    width: 67%;
+    height: 690px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin: 0px 0px 0px 35px;
@@ -277,6 +278,7 @@ h2 {
     margin: 60px 20px 20px 540px;
     font-size: 25px;
     letter-spacing: 1.5px;
+    font-weight: 700;
 }
 
 .desc21 {
@@ -317,7 +319,7 @@ h2 {
 
 .ad1 img {
     width: 300px;
-    margin: 55px 0px 0px 90px;
+    margin: 80px 0px 0px 100px;
 }
 
 .ad1 img:hover {
