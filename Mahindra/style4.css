@@ -130,7 +130,6 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     left: 4%;
-    box-shadow: 0px 10px 15px #c0c0c0;
 }
 
 .sign:hover {
@@ -181,9 +180,9 @@ h1 {
 }
 
 h2 {
-    margin: 0px 20px 40px 0px;
+    margin: 0px 20px 40px 10px;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1.4px;
 }
 
 .star {
@@ -230,8 +229,8 @@ h2 {
 }
 
 .container13 {
-    width: 70%;
-    height: 640px;
+    width: 68%;
+    height: 730px;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #8b8b8b;
     margin: 0px 0px 0px 35px;
@@ -318,8 +317,8 @@ h2 {
 }
 
 .ad1 img {
-    width: 300px;
-    margin: 75px 0px 0px 90px;
+    width: 270px;
+    margin: 85px 0px 0px 115px;
 }
 
 .ad1 img:hover {
