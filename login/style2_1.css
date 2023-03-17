@@ -9,7 +9,7 @@
 }
 
 section {
-    background-image: url("../image/cars/login\ back.jpg");
+    background-image: url("../image/logo/backimg.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ section {
 }
 
 .fbox {
-    background-color: white;
+    background-color: rgb(221, 219, 219);
     position: relative;
     width: 450px;
     height: 600px;
