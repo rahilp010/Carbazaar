@@ -379,7 +379,7 @@ body {
     width: 60px;
     height: 60px;
     border: 1px solid #ccc;
-    margin-left: 34%;
+    margin-left: 47%;
     border-radius: 100%;
 }
 
@@ -397,7 +397,7 @@ body {
     width: 60px;
     height: 60px;
     border: 1px solid #ccc;
-    margin-left: 42%;
+    margin-left: 56%;
     border-radius: 100%;
 }
 
@@ -492,7 +492,7 @@ body {
 .k2 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 16%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -500,7 +500,7 @@ body {
 .k3 {
     position: relative;
     top: 10%;
-    margin-left: 10%;
+    margin-left: 17%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -508,7 +508,7 @@ body {
 .k4 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 16%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -516,7 +516,7 @@ body {
 .k5 {
     position: relative;
     top: 10%;
-    margin-left: 13%;
+    margin-left: 17%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -524,19 +524,21 @@ body {
 .desk1 {
     position: relative;
     top: 10%;
-    margin-left: 6px;
+    margin-left: 8px;
     color: #6a6a6a;
     margin-top: 7px;
 }
 
 .desk2 {
-    position: relative;
+    position: absolute;
     top: 10%;
-    margin-left: -7px;
+    margin-left: -1px;
     color: #000000;
-    margin-top: 7px;
+    margin-top: 70px;
     font-size: 23px;
     font-weight: 500;
+    display: inline;
+    width: 200px;
 }
 
 .k1 .desk2 {
@@ -544,15 +546,15 @@ body {
 }
 
 .k2 .desk2 {
-    margin-left: -60px;
+    margin-left: -35px;
 }
 
 .k3 .desk2 {
-    margin-left: -40px;
+    margin-left: -12px;
 }
 
 .k4 .desk2 {
-    margin-left: -55px;
+    margin-left: -25px;
 }
 
 .k4 .desk1 {
@@ -568,19 +570,19 @@ body {
 }
 
 .k5 .desk2 {
-    margin-left: -70px;
+    margin-left: -80px;
 }
 
 .key1 {
     float: left;
     font-size: 20px;
-    margin: 50px 0px 0px 10px;
+    margin: 90px 0px 0px 10px;
 }
 
 .key2 {
     float: left;
     font-size: 20px;
-    margin: 50px 0px 0px 30px;
+    margin: 90px 0px 0px 30px;
     width: 640px;
 }
 

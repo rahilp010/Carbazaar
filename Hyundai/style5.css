@@ -23,6 +23,111 @@ body {
     background-color: darkblue;
 }
 
+#lan {
+    position: absolute;
+    border: 0;
+    top: 28px;
+    height: 50px;
+    margin-left: 360px;
+    border-radius: 13px;
+    font-size: 17px;
+    padding: 0px 0px 0px 15px;
+    font-style: oblique;
+}
+
+.ico1 lord-icon {
+    position: absolute;
+    top: 19%;
+    right: 8%;
+    width: 60px;
+    height: 60px;
+}
+
+#lan option {
+    font-size: 20px;
+}
+
+
+/* search */
+
+.container90 .input {
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.search_wrap {
+    width: 100%;
+    margin: 38px auto;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 800px;
+    height: 50px;
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-indent: 20px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+.search_box .btn {
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #3d71f3;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    border-radius: 50px;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    width: 125px;
+    height: 45px;
+    top: -6px;
+    right: -185px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    border-radius: 25px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    padding-right: 145px;
+}
+
 
 /*navbar*/
 
@@ -110,20 +215,22 @@ body {
 }
 
 .sign {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    margin-left: 1270px;
+    width: 10%;
+    top: 28px;
+    left: 100px;
     text-decoration: none;
     font-size: 17px;
-    border: 2px solid #ccc;
     border-radius: 13px;
     padding: 13px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: #3d71f3;
+    color: white;
     left: 4%;
 }
 
 .sign:hover {
-    color: rgb(0, 21, 255);
+    background: #7690da;
 }
 
 #icon {
@@ -136,13 +243,13 @@ body {
 
 #i1 {
     width: 110px;
-    margin: 10px 0px 0px 30px;
+    margin: 26px 0px 0px 30px;
 }
 
 .logo2 {
     position: absolute;
-    margin: 8px 0px 0px -220px;
-    font-size: 35px;
+    margin: 22px 0px 0px -210px;
+    font-size: 40px;
     color: black;
     font-weight: bolder;
     font-variant: small-caps;
@@ -152,6 +259,7 @@ body {
 .I {
     background-color: slategray;
     margin: -10px 0px 0px -10px;
+    height: 150px;
 }
 
 .searchbar {
@@ -271,7 +379,7 @@ body {
     width: 60px;
     height: 60px;
     border: 1px solid #ccc;
-    margin-left: 34%;
+    margin-left: 47%;
     border-radius: 100%;
 }
 
@@ -289,7 +397,7 @@ body {
     width: 60px;
     height: 60px;
     border: 1px solid #ccc;
-    margin-left: 42%;
+    margin-left: 56%;
     border-radius: 100%;
 }
 
@@ -384,7 +492,7 @@ body {
 .k2 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 14%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -392,7 +500,7 @@ body {
 .k3 {
     position: relative;
     top: 10%;
-    margin-left: 10%;
+    margin-left: 15%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -400,7 +508,7 @@ body {
 .k4 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 16%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -408,7 +516,7 @@ body {
 .k5 {
     position: relative;
     top: 10%;
-    margin-left: 13%;
+    margin-left: 17%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -416,7 +524,7 @@ body {
 .desk1 {
     position: relative;
     top: 10%;
-    margin-left: 6px;
+    margin-left: 8px;
     color: #6a6a6a;
     margin-top: 7px;
 }
@@ -436,15 +544,15 @@ body {
 }
 
 .k2 .desk2 {
-    margin-left: -60px;
+    margin-left: -20px;
 }
 
 .k3 .desk2 {
-    margin-left: -40px;
+    margin-left: -11px;
 }
 
 .k4 .desk2 {
-    margin-left: -55px;
+    margin-left: 5px;
 }
 
 .k4 .desk1 {
