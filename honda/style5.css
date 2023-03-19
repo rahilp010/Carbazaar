@@ -3,6 +3,11 @@
     zoom: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 280px;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -492,7 +497,7 @@ body {
 .k2 {
     position: relative;
     top: 10%;
-    margin-left: 14%;
+    margin-left: 9%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -500,7 +505,7 @@ body {
 .k3 {
     position: relative;
     top: 10%;
-    margin-left: 15%;
+    margin-left: 11%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -508,7 +513,7 @@ body {
 .k4 {
     position: relative;
     top: 10%;
-    margin-left: 16%;
+    margin-left: 12%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -516,7 +521,7 @@ body {
 .k5 {
     position: relative;
     top: 10%;
-    margin-left: 17%;
+    margin-left: 12%;
     color: rgb(95, 95, 95);
     float: left;
 }
