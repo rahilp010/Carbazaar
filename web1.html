@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="fist">
+    <header>
         <div class="content">
             <div class="I">
                 <img id="i1" src="image/logo/CarBazaar-removebg-preview.png" alt="car bazaar">
@@ -46,13 +46,13 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li class="a1"><a href="../web1.html">Home</a></li>
+                    <li class="a1"><a href="#home">Home</a></li>
                     <li class="a1">
                         <a href="#">New Cars
                             <i id="angle" class="fa-solid fa-angle-down"></i></a>
                         <div class="submenu" style="margin-left: 30px;">
                             <ul style="background-color: transparent;">
-                                <li class="ho1"><a href="">Popular Brands <i class="fa-solid fa-angle-right" style="margin-left: 100px; position:absolute;"></i></a>
+                                <li class="ho1"><a href="#popularbrands">Popular Brands <i class="fa-solid fa-angle-right" style="margin-left: 100px; position:absolute;"></i></a>
                                     <div class="submenu2">
                                         <ul>
                                             <li><a href="../Maruti suzuki/suzuki.html">Maruti Suzuki</a></li>
@@ -63,9 +63,9 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="">Latest Cars</a></li>
-                                <li><a href="">Most Search Cars</a></li>
-                                <li><a href="">Upcoming Cars</a></li>
+                                <li><a href="#latest">Latest Cars</a></li>
+                                <li><a href="#most search">Most Search Cars</a></li>
+                                <li><a href="#upcoming">Upcoming Cars</a></li>
                                 <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
                                     <div class="submenu2">
                                         <ul>
@@ -87,7 +87,7 @@
                         <div class="submenu" style="margin-left: 30px;">
                             <ul style="background-color: transparent;">
                                 <li><a href="#">Sell Car in your City</a> </li>
-                                <li><a href="#">Used Cars</a> </li>
+                                <li><a href="#used">Used Cars</a> </li>
                                 <li><a href="">Sell car by Brands</a></li>
                                 <li><a href="">FAQS </a></li>
                                 <li><a href="">Customer-care</a></li>
@@ -123,11 +123,10 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br>
-    <main class="ma1">
+    </header>
+    <div class="ma1">
         <!-- most search car -->
-        <div class="ads">
+        <div id="home" class="ads">
             <div class="r11">
                 <img src="image/cars/carservice.jpg" alt="">
                 <div class="k1">
@@ -136,8 +135,8 @@
                     </div>
                 </div>
             </div>
-        </div><br><br><br>
-        <div class="section">
+        </div>
+        <div id="most search" class="section">
             <div class="main1">
                 <h1> The Most Search Cars</h1>
                 <div class="container" style="height:530px;">
@@ -183,7 +182,7 @@
         <!-- latest cars -->
         <br>
         <br>
-        <div class="main1">
+        <div id="latest" class="main1">
             <h1>Latest Cars</h1>
             <div class="container">
                 <div class="A">
@@ -245,7 +244,7 @@
         <!-- Upcoming car -->
         <br>
         <br>
-        <div class="main1">
+        <div id="upcoming" class="main1">
             <h1>Upcoming Cars</h1>
             <div class="container">
                 <div class="A">
@@ -307,7 +306,7 @@
         <!-- qulified trusted cars -->
         <br>
         <br>
-        <div class="main1">
+        <div id="used" class="main1">
             <h1>Certified Used Cars</h1>
             <div class="container">
                 <div class="A">
@@ -369,7 +368,7 @@
         <!-- logos -->
         <br>
         <br>
-        <div class="main1 ">
+        <div id="popularbrands" class="main1 ">
             <section>
                 <h1>Popular Brands</h1>
                 <div class="con1 ">
@@ -412,76 +411,76 @@
                 </div>
             </section>
         </div>
-        </div>
+    </div>
 
-        <!-- footer -->
-        <div style="float: left">
-            <div class="container1">
-                <div class="componet1">
-                    <i id="f2" class="fa-duotone fa-award fa-6x"></i>
-                    <span id="d1">India's #1</span>
-                    <span id="d2">Largest Auto Seller</span>
-                </div>
-                <div class="componet1">
-                    <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
-                    <span id="d3">Service</span>
-                    <span id="d4">10,000+ Service station</span>
-                </div>
-                <div class="componet1">
-                    <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
-                    <span id="d5">Car Sold</span>
-                    <span id="d6">Every 5 minute</span>
-                </div>
-                <div class="componet1">
-                    <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
-                    <span id="d7">Compare</span>
-                    <span id="d8">Decode the right car</span>
-                </div>
+    <!-- footer -->
+    <div style="float: left">
+        <div class="container1">
+            <div class="componet1">
+                <i id="f2" class="fa-duotone fa-award fa-6x"></i>
+                <span id="d1">India's #1</span>
+                <span id="d2">Largest Auto Seller</span>
             </div>
-            <div class="container2">
-                <div class="componet2">
-                    <div class="m1">
-                        <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
-                        <div class="text1">
-                            <p>About us</p>
-                            <p>FAQs</p>
-                            <p>Privacy Policy</p>
-                            <p>Terms & Conditions</p>
-                            <p>Corporate Policies</p>
-                            <p>Investors</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="componet3">
-                    <div class="m2">
-                        <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
-                        <div class="text2">
-                            <p>1800 910 9111 (Toll-Free)</p>
-                            <p>support@carbazaar.com</p>
-                            <p>Dealer solutions</p>
-                            <p>Used Cars Business</p>
-                            <p>Contact Us</p>
-                            <p>Feedback</p>
-                        </div>
+            <div class="componet1">
+                <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
+                <span id="d3">Service</span>
+                <span id="d4">10,000+ Service station</span>
+            </div>
+            <div class="componet1">
+                <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
+                <span id="d5">Car Sold</span>
+                <span id="d6">Every 5 minute</span>
+            </div>
+            <div class="componet1">
+                <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
+                <span id="d7">Compare</span>
+                <span id="d8">Decode the right car</span>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="componet2">
+                <div class="m1">
+                    <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
+                    <div class="text1">
+                        <p>About us</p>
+                        <p>FAQs</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                        <p>Corporate Policies</p>
+                        <p>Investors</p>
                     </div>
                 </div>
             </div>
-            <div class="container3">
-                <div class="componet4">
-                    <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
-                    <div class="foot2">Connect :</div>
-                    <div class="foot3">
-                        <i class="fa-brands fa-instagram fa-2xl"></i>
-                        <i class="fa-brands fa-youtube fa-2xl"></i>
-                        <i class="fa-brands fa-twitter fa-2xl"></i>
-                        <i class="fa-brands fa-github fa-2xl"></i>
-                        <i class="fa-brands fa-facebook fa-2xl"></i>
-                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+            <div class="componet3">
+                <div class="m2">
+                    <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
+                    <div class="text2">
+                        <p>1800 910 9111 (Toll-Free)</p>
+                        <p>support@carbazaar.com</p>
+                        <p>Dealer solutions</p>
+                        <p>Used Cars Business</p>
+                        <p>Contact Us</p>
+                        <p>Feedback</p>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+        <div class="container3">
+            <div class="componet4">
+                <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
+                <div class="foot2">Connect :</div>
+                <div class="foot3">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-youtube fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

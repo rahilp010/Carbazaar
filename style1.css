@@ -3,18 +3,23 @@
     zoom: 100%;
 }
 
-header h1 {
-    text-align: center;
-    font-size: 50px;
-    color: white;
+:root {
+    scroll-padding-top: 250px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
 }
 
+header {
+    height: 220px;
+}
+
 .ads {
-    margin-top: 30px;
     background-color: #e3e3e3;
 }
 
@@ -23,7 +28,7 @@ body {
     width: 110%;
     height: 780px;
     padding: 0px;
-    margin-top: 10px;
+    /* margin-top: 300px; */
     display: flex;
     border: 1px solid #ccc;
 }
@@ -86,18 +91,6 @@ body {
 
 #lan option {
     font-size: 20px;
-}
-
-
-/* 
-.ma1 {
-    margin-left: 30px;
-} */
-
-.fist {
-    width: 100%;
-    position: fixed;
-    z-index: 20;
 }
 
 #body1 {
