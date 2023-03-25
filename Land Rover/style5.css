@@ -1,0 +1,940 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 280px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.content {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+#ser1 {
+    position: absolute;
+    top: 4px;
+    left: 62.3%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 19px;
+    background-color: darkblue;
+}
+
+#lan {
+    position: absolute;
+    border: 0;
+    top: 28px;
+    height: 50px;
+    margin-left: 360px;
+    border-radius: 13px;
+    font-size: 17px;
+    padding: 0px 0px 0px 15px;
+    font-style: oblique;
+}
+
+.ico1 lord-icon {
+    position: absolute;
+    top: 19%;
+    right: 8%;
+    width: 60px;
+    height: 60px;
+}
+
+#lan option {
+    font-size: 20px;
+}
+
+
+/* search */
+
+.container90 .input {
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.search_wrap {
+    width: 100%;
+    margin: 38px auto;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 800px;
+    height: 50px;
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-indent: 20px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+.search_box .btn {
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #3d71f3;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    border-radius: 50px;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    width: 125px;
+    height: 45px;
+    top: -6px;
+    right: -185px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    border-radius: 25px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    padding-right: 145px;
+}
+
+
+/*navbar*/
+
+#angle {
+    margin-left: 10px;
+}
+
+.menu {
+    margin-left: -10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #8b8b8b;
+    text-align: center;
+    z-index: 7;
+}
+
+.menu ul {
+    margin-left: -80px;
+    display: inline-flex;
+    list-style: none;
+    color: blue;
+}
+
+.menu ul li {
+    font-size: 20px;
+    width: 200px;
+    margin-left: 35px;
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul :hover {
+    border-radius: 3px;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.submenu ul {
+    display: block;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.submenu ul li {
+    width: 250px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    margin-left: -20px;
+    text-align: left;
+}
+
+.submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.submenu ul li a:hover {
+    color: rgb(157, 157, 157);
+}
+
+.submenu2 {
+    display: none;
+}
+
+.ho1:hover .submenu2 {
+    position: absolute;
+    display: block;
+    margin-left: 250px;
+    margin-top: -45px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sign {
+    position: absolute;
+    margin-left: 1270px;
+    width: 10%;
+    top: 28px;
+    left: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 13px;
+    padding: 13px;
+    background: #3d71f3;
+    color: white;
+    left: 4%;
+}
+
+.sign:hover {
+    background: #7690da;
+}
+
+#icon {
+    position: relative;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    bottom: -13px;
+    margin-left: 30px;
+}
+
+#i1 {
+    width: 110px;
+    margin: 26px 0px 0px 30px;
+}
+
+.logo2 {
+    position: absolute;
+    margin: 22px 0px 0px -210px;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+.I {
+    background-color: slategray;
+    margin: -10px 0px 0px -10px;
+    height: 150px;
+}
+
+.searchbar {
+    text-align: center;
+    margin-left: 340px;
+    position: absolute;
+    top: 15px;
+    width: 74%;
+}
+
+.container1 {
+    margin-left: -10px;
+    width: 110%;
+    height: 530px;
+    margin-top: 250px;
+    border: 1px solid #8b8b8b;
+    box-shadow: 0px 10px 15px #ccc;
+}
+
+.component1 img {
+    margin-top: 40px;
+    margin-left: 70px;
+    float: left;
+    width: 37%;
+    height: 450px;
+    border: 1px solid #8b8b8b;
+    box-shadow: 0px 10px 15px #8b8b8b;
+}
+
+.star {
+    font-size: 25px;
+    color: gold;
+    z-index: 1;
+}
+
+.rating {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(123, 123, 123);
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.desc {
+    position: relative;
+    top: 40px;
+    margin: 0px 0px 0px 43.4%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.desc1 {
+    position: relative;
+    top: 50px;
+    margin-left: 43.4%;
+}
+
+.desc2 {
+    position: relative;
+    top: 60px;
+    margin-left: 43.4%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.desc2 span {
+    font-size: 20px;
+    color: rgb(0, 179, 255);
+    margin-left: 1px;
+}
+
+.desc3 {
+    position: relative;
+    top: 70px;
+    font-size: 22px;
+    color: #8b8b8b;
+    margin-left: 43.4%;
+}
+
+#op1 {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 3px;
+    color: rgb(0, 179, 255);
+    font-weight: 600;
+}
+
+.b1 {
+    position: relative;
+    top: 100px;
+    margin-left: 43.4%;
+}
+
+.b1 input {
+    width: 380px;
+    height: 70px;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(0, 200, 255);
+    font-weight: 600;
+    color: white;
+}
+
+.b1 input:hover {
+    color: rgb(38, 0, 255);
+    cursor: pointer;
+}
+
+.i1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin-left: 47%;
+    border-radius: 100%;
+}
+
+.i1 lord-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 6px;
+    margin-top: 7px;
+    cursor: pointer;
+    
+}
+button.i1 {
+    color: #0571ed;
+  }
+button.i1 {
+    animation: anim 0.5s ease-in-out;
+    -webkit-animation: anim 0.5s ease-in-out;
+  }
+.i2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin-left: 56%;
+    border-radius: 100%;
+}
+
+.i2 lord-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#op2 {
+    position: relative;
+    top: 150px;
+    margin: 0px 0px 0px 43.4%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.s1 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #8b8b8b;
+}
+
+.c1 {
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    width: 70%;
+    height: 950px;
+    float: left;
+    margin: 40px 0px 0px 30px;
+    overflow: auto;
+}
+
+.c2 {
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin: 40px 0px 0px 40px;
+}
+
+.c1 h2 {
+    margin: 40px 0px 0px 50px;
+    font-size: 35px;
+}
+
+.c3 {
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    height: 900px;
+    margin: 40px 0px 0px 30px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.c4 {
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    margin: -590px 0px 0px 40px;
+    height: 740px;
+    width: 25%;
+}
+
+.c5 {
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 15px #ccc;
+    margin: 40px 0px 0px 30px;
+    width: 70%;
+    height: 590px;
+}
+
+.r1 {
+    margin: 70px 0px 0px 20px;
+}
+
+.k1 {
+    position: relative;
+    top: 10%;
+    margin-left: 6%;
+    color: rgb(95, 95, 95);
+    float: left;
+}
+
+.k2 {
+    position: relative;
+    top: 10%;
+    margin-left: 14%;
+    color: rgb(95, 95, 95);
+    float: left;
+}
+
+.k3 {
+    position: relative;
+    top: 10%;
+    margin-left: 15%;
+    color: rgb(95, 95, 95);
+    float: left;
+}
+
+.k4 {
+    position: relative;
+    top: 10%;
+    margin-left: 16%;
+    color: rgb(95, 95, 95);
+    float: left;
+}
+
+.k5 {
+    position: relative;
+    top: 10%;
+    margin-left: 17%;
+    color: rgb(95, 95, 95);
+    float: left;
+}
+
+.desk1 {
+    position: relative;
+    top: 10%;
+    margin-left: 8px;
+    color: #6a6a6a;
+    margin-top: 7px;
+}
+
+.desk2 {
+    position: relative;
+    top: 10%;
+    margin-left: -7px;
+    color: #000000;
+    margin-top: 7px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.k1 .desk2 {
+    margin-left: 1px;
+}
+
+.k2 .desk2 {
+    margin-left: -20px;
+}
+
+.k3 .desk2 {
+    margin-left: -11px;
+}
+
+.k4 .desk2 {
+    margin-left: 5px;
+}
+
+.k4 .desk1 {
+    margin-left: -1px;
+}
+
+.k3 .desk1 {
+    margin-left: 2px;
+}
+
+.k5 .desk1 {
+    margin-left: -25px;
+}
+
+.k5 .desk2 {
+    margin-left: -70px;
+}
+
+.key1 {
+    float: left;
+    font-size: 20px;
+    margin: 50px 0px 0px 10px;
+}
+
+.key2 {
+    float: left;
+    font-size: 20px;
+    margin: 50px 0px 0px 30px;
+    width: 640px;
+}
+
+table,
+tr,
+th,
+td {
+    padding: 20px;
+    width: 600px;
+}
+
+tr,
+td {
+    border-bottom: 1px solid #ccc;
+}
+
+.componetq1 {
+    border: 1px solid #ccc;
+    padding: 40px;
+}
+
+.c3 h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 35px;
+}
+
+.text11 {
+    margin: 20px 0px 0px 0px;
+    font-size: 23px;
+    color: rgb(88, 88, 88);
+}
+
+#j1 {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 20px;
+}
+
+#j2 {
+    position: relative;
+    top: 40px;
+    left: 560px;
+    font-size: 20px;
+}
+
+.detail1 {
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 17px;
+}
+
+.d11 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.d12 {
+    font-size: 20px;
+    color: #696969;
+    margin-top: 10px;
+}
+
+.d13 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.d14 {
+    position: relative;
+    top: -100px;
+    left: 555px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.d15 {
+    position: relative;
+    top: -90px;
+    left: 555px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 183, 255);
+}
+
+.emi0 {
+    position: relative;
+    top: 30px;
+    left: 350px;
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+    z-index: 1;
+}
+
+.emi {
+    margin: 20px 0px 0px 20px;
+    font-size: 23px;
+    color: #6a6a6a;
+}
+
+.emi1 {
+    position: relative;
+    top: -115px;
+    margin: 20px 0px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.emi2 {
+    position: relative;
+    top: -125px;
+    margin: 20px 0px 0px 20px;
+    font-size: 17px;
+}
+
+.emi3 input {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    top: -70px;
+    left: 20px;
+    font-size: 17px;
+}
+
+.c5 h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 35px;
+}
+
+.c5 table,
+tr,
+td {
+    border-collapse: collapse;
+    text-align: center;
+    width: 1200px;
+    font-size: 23px;
+    margin: 60px 30px 30px 55px;
+}
+
+
+/* footer */
+
+.container19 {
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 250%;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+
+#f2 {
+    margin: 50px 0px 0px 60px;
+    float: left;
+}
+
+#d1 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 20px;
+    font-size: 30px;
+}
+
+#d2 {
+    position: absolute;
+    margin: 95px 0px 0px 20px;
+    font-size: 25px;
+}
+
+#f3 {
+    position: absolute;
+    margin: 40px 0px 0px 360px;
+}
+
+#d3 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 470px;
+    font-size: 30px;
+}
+
+#d4 {
+    position: absolute;
+    margin: 95px 0px 0px 470px;
+    font-size: 25px;
+}
+
+#f4 {
+    position: absolute;
+    margin: 50px 0px 0px 860px;
+}
+
+#d5 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 970px;
+    font-size: 30px;
+}
+
+#d6 {
+    position: absolute;
+    margin: 95px 0px 0px 970px;
+    font-size: 25px;
+}
+
+#f5 {
+    position: absolute;
+    margin: 50px 0px 0px 1310px;
+}
+
+#d7 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 1450px;
+    font-size: 30px;
+}
+
+#d8 {
+    position: absolute;
+    margin: 95px 0px 0px 1450px;
+    font-size: 25px;
+}
+
+.m1 {
+    float: left;
+}
+
+.container29 {
+    margin-left: -10px;
+    width: 300%;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: slategrey;
+}
+
+.componet28 {
+    margin: 50px 0px 50px 70px;
+}
+
+.componet38 {
+    margin: 70px 0px 70px 700px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.container39 {
+    width: 300%;
+    margin-left: -10px;
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+.foot1 {
+    margin: 30px 0px 30px 40px;
+    font-size: 19px;
+    font-weight: bolder;
+    float: left;
+}
+
+.foot2 {
+    margin: 30px 0px 30px 40px;
+    font-size: 22px;
+    float: left;
+    font-weight: bolder;
+    position: absolute;
+    right: 25%;
+}
+
+.foot3 {
+    margin: 33px 0px 30px 40px;
+    font-size: 19px;
+    float: left;
+    font-weight: bolder;
+    position: absolute;
+    right: 2%;
+    word-spacing: 30px;
+}
+
+.txt2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 35px 25px 35px 30px;
+}
+
+.con2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    margin: 30px;
+}
+
+.box2 {
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 80px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 130px;
+    margin-left: 0px;
+}
+
+.con2 .box2 a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.foot23 {
+    border: 1px solid #ccc;
+    position: relative;
+    left: -30px;
+    width: 469px;
+    height: 63px;
+    background: #7690da;
+}
+
+.foot23 a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.foot24 {
+    font-size: 20px;
+    color: #ffffff;
+    text-indent: 20px;
+    padding: 17px;
+    font-weight: bold;
+}
