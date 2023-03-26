@@ -16,61 +16,43 @@
             <img id="i1" src="../image/logo/CarBazaar-removebg-preview.png" alt="car bazaar">
             <div class="searchbar">
                 <div class="logo2">CarBazaar</div>
-                <input placeholder="Search cars or Brands" class="search" type="search" name="search" id="search" style="width:65%;border:1px solid; border-radius:7px; padding:15px; font-size: 20px; cursor:auto">
-                <span id="ser1"><i class="fa-solid fa-magnifying-glass fa-2xl" style="color:white"></i></span>
-                <select name="lan" id="lan" class="lan" style="height:40px ; margin-left:70px ;border-radius:13px;font-size:17px;padding:0px 0px 0px 15px;font-style:oblique">
-                <option value="English">English</option>
-                <option value="Hindi">हिन्दी </option>
-                <option value="Gujrati">ગુજરાતી</option>
-                <option value="Tamil">தமிழ்</option>
-                <option value="Telugu">తెలుగు</option>
-                <option value="Malayalam">മലയാളം</option>
-                <option value="Kannada">ಕನ್ನಡ</option>
+                <div class="wrapper">
+                    <div class="container90">
+                        <div class="search_wrap search_wrap_6">
+                            <div class="search_box">
+                                <input type="text" class="input" placeholder="Search Cars and Brands.......">
+                                <div class="btn">
+                                    <p>Search</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <select name="lan" id="lan" class="lan">
+                    <option value="English">English</option>
+                    <option value="Hindi">हिन्दी </option>
+                    <option value="Gujrati">ગુજરાતી</option>
+                    <option value="Tamil">தமிழ்</option>
+                    <option value="Telugu">తెలుగు</option>
+                    <option value="Malayalam">മലയാളം</option>
+                    <option value="Kannada">ಕನ್ನಡ</option>
                 </select>
-                <span id="icon"><ion-icon name="people-circle-outline"></ion-icon></span>
-                <a href="../login/login.html" class="sign">Log-in/Sign-in</a>
+                <div class="ico1">
+                    <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
+                </div>
+                <a href="../login/login.html" class="sign">Login / Register</a>
             </div>
         </div>
         <div class="menu">
             <ul>
                 <li class="a1"><a href="../web1.html">Home</a></li>
                 <li class="a1">
-                    <a href="#">New Cars
-                        <i id="angle" class="fa-solid fa-angle-down"></i></a>
-                    <div class="submenu" style="margin-left: 30px;">
-                        <ul style="background-color: transparent;">
-                            <li><a href="#">Popular Brands</a> </li>
-                            <li><a href="">Latest Cars</a></li>
-                            <li><a href="">Most Search Cars</a></li>
-                            <li><a href="">Upcoming Cars</a></li>
-                            <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
-                                <div class="submenu2">
-                                    <ul>
-                                        <li><a href="../hatchback.html">Hatchback</a></li>
-                                        <li><a href="../sedan.html">Sedan</a></li>
-                                        <li><a href="../muv.html">MUV</a></li>
-                                        <li><a href="../suv.html">SUV</a></li>
-                                        <li><a href="../hybrid.html">Hybrid</a></li>
-                                        <li><a href="../minivan.html">Minivan</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="">Offers and Discount</a></li>
-                        </ul>
-                    </div>
+                    <a href="#Specifications">Specifications</a>
                 </li>
-                <li><a href="#">Sell Cars
-                    <i id="angle" class="fa-solid fa-angle-down"></i></a>
-                    <div class="submenu" style="margin-left: 30px;">
-                        <ul style="background-color: transparent;">
-                            <li><a href="#">Sell Car in your City</a> </li>
-                            <li><a href="#">Used Cars</a> </li>
-                            <li><a href="">Sell car by Brands</a></li>
-                            <li><a href="">FAQS </a></li>
-                            <li><a href="">Customer-care</a></li>
-                        </ul>
-                    </div>
+                <li>
+                    <a href="#Variants">Variants</a>
                 </li>
+                <li><a href="#Mileage">Mileage</a></li>
                 <li><a href="#">Compare Cars</a></li>
                 <li><a href="#">Service Booking
                     <i id="angle" class="fa-solid fa-angle-down"></i>
@@ -95,21 +77,19 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">News & Reviews</a></li>
-
             </ul>
         </div>
     </div>
     <br>
     <div class="container1">
         <div class="component1">
-            <img src="" alt="Virtus">
+            <img src="../image/cars/virtus.jpeg" alt="Virtus">
             <div class="desc">Volkswagen Virtus
-                <span class="i1">
+                <span class="i1" style="margin-left: 35%;">
                     <!-- <i class="fa-duotone fa-heart "></i> -->
                     <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" trigger="hover"></lord-icon>
                 </span>
-                <span class="i2">
+                <span class="i2" style="margin-left: 45%;">
                     <!-- <i class="fa-regular fa-share-nodes"></i> -->
                     <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" trigger="hover"></lord-icon>
                 </span>
@@ -152,7 +132,7 @@
         </div>
     </div>
     <div class="container2">
-        <div class="c1">
+        <div class="c1" id="Specifications">
             <h2>Key Specifications of Volkswagen Virtus</h2>
             <div class="r1">
                 <div class="k1">
@@ -246,10 +226,11 @@
             <div class="emi3"><input type="button" value="View Finance Offers"></div>
 
         </div>
-        <div class="c3">
+        <div class="c3" id="Variants">
             <div class="componetq1">
                 <h2>Volkswagen Virtus price list (Variants)</h2>
-                <div class="text11">The price of Volkswagen Virtus starts at Rs. 11.32 Lakh and goes upto Rs. 18.42 Lakh. Volkswagen Virtus is offered in 6 variants - the base model of Virtus is Comfortline and the top variant Volkswagen Virtus GT Plus which comes at a price tag of Rs. 18.42 Lakh.
+                <div class="text11">The price of Volkswagen Virtus starts at Rs. 11.32 Lakh and goes upto Rs. 18.42 Lakh. Volkswagen Virtus is offered in 6 variants - the base model of Virtus is Comfortline and the top variant Volkswagen Virtus GT Plus which comes at a price
+                    tag of Rs. 18.42 Lakh.
                 </div>
             </div>
             <div class="m1">
@@ -299,10 +280,26 @@
                 <div class="d15">Get On Road Price</div>
             </div>
         </div>
-        <div class="c4">
-
+        <div class="c4" style="height: 593px;">
+            <div class="txt2">Trending Volkswagen Cars</div>
+            <div class="con2">
+                <div class="box2">
+                    <a href="../volkswagen/taigun.html"><img src="../image/cars/volkswagen-taigun.jpg" alt="Taigun">Taigun</a>
+                </div>
+                <div class="box2">
+                    <a href="../volkswagen/tiguan.html"><img src="../image/cars/volkswagen_tiguan.jpg" alt="tiguan">Tiguan</a>
+                </div>
+                <div class="box2">
+                    <a href="../volkswagen/virtus.html"><img src="../image/cars/virtus.jpeg" alt="virtus">Virtus</a>
+                </div>
+                <div class="foot23">
+                    <a href="../volkswagen/volkswagen.html">
+                        <div class="foot24">View All Volkswagen Cars</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="c5">
+        <div class="c5" id="Mileage" style="height: 600px;">
             <div class="componetq1">
                 <h2>Volkswagen Virtus Mileage</h2>
                 <div class="text11">The claimed ARAI mileage: Volkswagen Virtus Petrol is 18.12 kmpl. The claimed ARAI mileage for the automatic variants: Volkswagen Virtus Petrol is 19.2 kmpl.
