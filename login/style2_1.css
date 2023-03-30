@@ -8,6 +8,10 @@
     zoom: 100%;
 }
 
+body {
+    zoom: 67%;
+}
+
 section {
     background-image: url("../image/logo/backimg.jpg");
     display: flex;

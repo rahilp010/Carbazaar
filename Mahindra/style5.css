@@ -10,6 +10,7 @@ html {
 
 body {
     overflow-x: hidden;
+    zoom: 67%;
 }
 
 .content {
@@ -221,17 +222,15 @@ body {
 
 .sign {
     position: absolute;
-    margin-left: 1270px;
+    right: -7%;
     width: 10%;
     top: 28px;
-    left: 100px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 13px;
     padding: 13px;
     background: #3d71f3;
     color: white;
-    left: 4%;
 }
 
 .sign:hover {

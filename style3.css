@@ -1,10 +1,10 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    zoom: 100%;
 }
 
 body {
     overflow-x: hidden;
+    zoom: 67%
 }
 
 .content {

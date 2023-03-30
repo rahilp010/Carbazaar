@@ -1,6 +1,5 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    zoom: 100%;
 }
 
 :root {
@@ -13,6 +12,7 @@ html {
 
 body {
     overflow-x: hidden;
+    zoom: 67%;
 }
 
 header {
@@ -286,17 +286,15 @@ header {
 
 .sign {
     position: absolute;
-    margin-left: 1270px;
+    right: -7%;
     width: 10%;
     top: 28px;
-    left: 100px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 13px;
     padding: 13px;
     background: #3d71f3;
     color: white;
-    left: 4%;
 }
 
 .sign:hover {
@@ -614,4 +612,50 @@ form {
     position: absolute;
     right: 2%;
     word-spacing: 30px;
+}
+
+#icon9 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -360px;
+    right: -95%;
+    display: none;
+}
+
+.searchlist {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    background-color: #fff;
+    display: flexbox;
+    overflow: scroll;
+    display: none;
+}
+
+.searchlist::-webkit-scrollbar {
+    display: none;
+}
+
+#myUL {
+    padding: 10px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 23px;
+    list-style-type: none;
+    text-align: left;
+    word-spacing: 2px;
+    display: flexbox;
+}
+
+#myUL p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1.3px;
 }
