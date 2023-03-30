@@ -1,6 +1,5 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    zoom: 100%;
 }
 
 :root {
@@ -13,6 +12,7 @@ html {
 
 body {
     overflow-x: hidden;
+    zoom: 67%;
 }
 
 header {
@@ -286,17 +286,15 @@ header {
 
 .sign {
     position: absolute;
-    margin-left: 1270px;
+    right: -7%;
     width: 10%;
     top: 28px;
-    left: 100px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 13px;
     padding: 13px;
     background: #3d71f3;
     color: white;
-    left: 4%;
 }
 
 .sign:hover {
@@ -469,4 +467,608 @@ header {
 .box1 img {
     width: 120%;
     z-index: 1;
+}
+
+.s3 {
+    background-color: #F5FBFF;
+    width: 100%;
+    height: 800px;
+}
+
+#blk1 {
+    margin-top: 90px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    height: 130px;
+}
+
+#blk2 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    height: 100px;
+}
+
+.block1 {
+    float: left;
+    position: relative;
+    left: 12%;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 22%;
+    height: 500px;
+    background-color: white;
+}
+
+.block1 a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #7690da;
+    position: relative;
+    padding: 40px;
+}
+
+.block1 lord-icon {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 70%;
+    left: 30%;
+    border-radius: 65px;
+    border: 1px solid;
+}
+
+.block2 {
+    float: left;
+    position: relative;
+    left: 17%;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 22%;
+    height: 500px;
+    background-color: white;
+}
+
+.block2 a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #7690da;
+    padding: 40px;
+}
+
+.block2 lord-icon {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 70%;
+    left: 34%;
+    border-radius: 65px;
+    border: 1px solid;
+}
+
+.block3 {
+    float: right;
+    position: relative;
+    right: 12%;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 22%;
+    height: 500px;
+    background-color: white;
+}
+
+.block3 a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #7690da;
+    padding: 40px;
+}
+
+.block3 lord-icon {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 70%;
+    left: 33%;
+    border-radius: 65px;
+    border: 1px solid;
+}
+
+.conte1 {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.conte2 {
+    padding: 0 10px 20px 40px;
+}
+
+.searchitem {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    left: 21.5%;
+    top: -4%;
+    padding: 0 0 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.s4 {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: 50px 50px 50px 50px;
+    padding: 50px;
+    position: relative;
+    left: 20%;
+    border-radius: 30px;
+    height: 1100px;
+    background-color: white;
+    box-shadow: 0px 10px 15px #ccc;
+}
+
+fieldset {
+    border-radius: 20px;
+}
+
+fieldset legend {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+}
+
+#date {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#time {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.btn2 {
+    position: relative;
+    top: 70px;
+    width: 50%;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 30px 0 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #7690da;
+    color: white;
+}
+
+.conte11 lord-icon {
+    width: 90px;
+    height: 60px;
+    position: relative;
+    left: 5%;
+    top: 50px;
+}
+
+#k1 {
+    font-size: 23px;
+    font-weight: 700;
+    position: relative;
+    top: 26px;
+    left: 4%;
+}
+
+#icon {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 65%;
+    left: 65%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+#address {
+    font-size: 20px;
+    padding: 40px;
+    width: 84%;
+    margin: 30px;
+}
+
+.s5 {
+    background-color: #F5FBFF;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+#blk3 {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cont123 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 25%;
+}
+
+.cont123 lord-icon {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+#icon1 {
+    position: relative;
+    left: 0%;
+}
+
+#icon2 {
+    position: relative;
+    left: -2.5%;
+}
+
+#icon3 {
+    position: relative;
+    left: -6%;
+}
+
+#icon4 {
+    position: relative;
+    left: -9%;
+}
+
+#blk4 {
+    position: relative;
+    top: 60%;
+    left: -5.3%;
+    display: flex;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#blk5 {
+    position: relative;
+    top: 90%;
+    left: -11.7%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#blk6 {
+    position: relative;
+    top: 60%;
+    left: -7%;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#blk7 {
+    position: relative;
+    left: -14%;
+    top: 90%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#blk8 {
+    position: relative;
+    top: 60%;
+    left: -10.7%;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#blk9 {
+    position: relative;
+    left: -17.3%;
+    top: 90%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#blkA {
+    position: relative;
+    top: 60%;
+    left: -13.1%;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#blkB {
+    position: relative;
+    left: -20.3%;
+    top: 90%;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.s6 {
+    height: 700px;
+    margin-top: 100px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    padding: 30px;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+    padding: 20px 20px 20px 40px;
+    border: 1px solid#ccc;
+}
+
+#icon71 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 231px;
+    right: 5%;
+    cursor: pointer;
+}
+
+#icon72 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 306px;
+    right: 5%;
+    cursor: pointer;
+}
+
+#icon73 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 379px;
+    right: 5%;
+    cursor: pointer;
+}
+
+#icon74 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 453px;
+    right: 5%;
+    cursor: pointer;
+}
+
+#icon75 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 526px;
+    right: 5%;
+    cursor: pointer;
+}
+
+#icon76 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 602px;
+    right: 5%;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.container1 {
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 300%;
+    height: 200px;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+#f2 {
+    margin: 50px 0px 0px 60px;
+    float: left;
+    z-index: 1;
+}
+
+#d1 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 20px;
+    font-size: 30px;
+    z-index: 1;
+}
+
+#d2 {
+    position: absolute;
+    margin: 95px 0px 0px 20px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+#f3 {
+    position: absolute;
+    margin: 40px 0px 0px 360px;
+}
+
+#d3 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 470px;
+    font-size: 30px;
+}
+
+#d4 {
+    position: absolute;
+    margin: 95px 0px 0px 470px;
+    font-size: 25px;
+}
+
+#f4 {
+    position: absolute;
+    margin: 50px 0px 0px 860px;
+}
+
+#d5 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 970px;
+    font-size: 30px;
+}
+
+#d6 {
+    position: absolute;
+    margin: 95px 0px 0px 970px;
+    font-size: 25px;
+}
+
+#f5 {
+    position: absolute;
+    margin: 50px 0px 0px 1310px;
+}
+
+#d7 {
+    font-weight: bold;
+    position: absolute;
+    margin: 60px 0px 0px 1450px;
+    font-size: 30px;
+}
+
+#d8 {
+    position: absolute;
+    margin: 95px 0px 0px 1450px;
+    font-size: 25px;
+}
+
+.m1 {
+    float: left;
+}
+
+.container2 {
+    margin-left: -10px;
+    width: 300%;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: slategrey;
+}
+
+.componet2 {
+    margin: 50px 0px 50px 70px;
+}
+
+.componet3 {
+    margin: 70px 0px 70px 700px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.container3 {
+    width: 300%;
+    margin-left: -10px;
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+.foot1 {
+    margin: 30px 0px 30px 40px;
+    font-size: 19px;
+    font-weight: bolder;
+    float: left;
+}
+
+.foot2 {
+    margin: 30px 0px 30px 40px;
+    font-size: 22px;
+    float: left;
+    font-weight: bolder;
+    position: absolute;
+    right: 25%;
+}
+
+.foot3 {
+    margin: 33px 0px 30px 40px;
+    font-size: 19px;
+    float: left;
+    font-weight: bolder;
+    position: absolute;
+    right: 2%;
+    word-spacing: 30px;
+}
+
+#icon9 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -360px;
+    right: -95%;
+    display: none;
+}
+
+.searchlist {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    background-color: #fff;
+    display: flexbox;
+    overflow: scroll;
+    display: none;
+}
+
+.searchlist::-webkit-scrollbar {
+    display: none;
+}
+
+#myUL {
+    padding: 10px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 23px;
+    list-style-type: none;
+    text-align: left;
+    word-spacing: 2px;
+    display: flexbox;
+}
+
+#myUL p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1.3px;
 }
