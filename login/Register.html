@@ -13,36 +13,37 @@
     <section>
         <div class="fbox">
             <div class="fvalue">
-                <form action="web1.html">
-                    <h2>Register Yourself</h2>
+                <form action="register.php" method="post">
+                    <h2>Register Your Self</h2>
                     <div class="inputbox">
-                        <ion-icon name="people-outline"></ion-icon>
-                        <input type="text" required>
-                        <label for="">First Name</label>
+                        <ion-icon name="people-circle-outline"></ion-icon>
+                        <input type="text" name="uname" id="uname" required>
+                        <label for="">UserName</label>
                     </div>
                     <div class="inputbox">
-                        <ion-icon name="people-outline"></ion-icon>
-                        <input type="text" required>
-                        <label for="">Last Name</label>
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="text" name="phone" id="phone" required>
+                        <label for="">PhoneNo</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
+                        <input type="email" name="email" id="email" required>
                         <label for="">Email</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
+                        <input type="password" name="password" id="password" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Confirm Password</label>
+                    <div class="forget">
+                        <label for=""><input type="checkbox" name="remember_me" id="remember_me">Remember Me</label>
+                        <a href="#" style="margin-left: 10px;">Forget Password</a>
                     </div>
-                    <div class="">
-                        <a href="web1.html"><button>Register</button></a>
+                    <input id="button" type="submit" value="Register">
+                    <div class="register">
+                        <p>Have a Account <a href="login.html" style="margin-left: 10px;">Login</a></p>
                     </div>
+                    <div class="home"><a href="/web1.html">Home</a></div>
                 </form>
             </div>
         </div>

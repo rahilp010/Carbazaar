@@ -13,26 +13,27 @@
     <section>
         <div class="fbox">
             <div class="fvalue">
-                <form action="web1.html">
+                <form action="login1.php" method="post">
                     <h2>Log-in</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
+                        <input type="email" name="email" id="email" required>
                         <label for="">Email</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
+                        <input type="password" name="password" id="password" required>
                         <label for="">Password</label>
                     </div>
                     <div class="forget">
                         <label for=""><input type="checkbox" name="remember_me" id="remember_me">Remember Me</label>
                         <a href="#" style="margin-left: 10px;">Forget Password</a>
                     </div>
-                    <button>Log-in</button>
+                    <input id="button" type="submit" value="Log-in">
                     <div class="register">
                         <p>Don't Have a Account <a href="Register.html" style="margin-left: 10px;">Register</a></p>
                     </div>
+                    <div class="home"><a href="/web1.html">Home</a></div>
                 </form>
             </div>
         </div>

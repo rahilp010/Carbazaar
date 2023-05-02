@@ -43,10 +43,11 @@ header {
 .k1 {
     border: 1px solid rgb(29, 29, 29);
     border-radius: 25px;
-    position: absolute;
+    position: relative;
+    left: -73%;
     width: 27%;
     height: 70%;
-    margin: 70px 0px 0px 90px;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -386,6 +387,7 @@ form {
 } */
 
 .container {
+    position: relative;
     border-radius: 7px;
     width: 96%;
     height: 590px;
@@ -398,9 +400,9 @@ form {
 }
 
 .a {
+    position: relative;
     border: 1px solid black;
     margin: 20px;
-    /* width: 100%; */
     width: 420px;
     height: 280px;
     box-shadow: 0px 10px 25px #ccc;
