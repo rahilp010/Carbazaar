@@ -24,6 +24,133 @@ body {
 }
 
 
+/* search */
+
+.container90 .input {
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.search_wrap {
+    width: 100%;
+    margin: 38px auto;
+}
+
+.search_wrap .search_box {
+    position: relative;
+    width: 800px;
+    height: 50px;
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-indent: 20px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+
+.search_box .btn {
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #7690da;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #3d71f3;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    border-radius: 50px;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    width: 125px;
+    height: 45px;
+    top: -6px;
+    right: -185px;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_wrap.search_wrap_6 .search_box .btn {
+    border-radius: 25px;
+}
+
+.search_wrap.search_wrap_6 .search_box .input {
+    padding-right: 145px;
+}
+
+.searchlist::-webkit-scrollbar {
+    display: none;
+}
+
+#myUL {
+    padding: 10px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 23px;
+    list-style-type: none;
+    text-align: left;
+    word-spacing: 2px;
+    display: flexbox;
+}
+
+#myUL p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1.3px;
+}
+
+.searchlist {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    background-color: #fff;
+    display: flexbox;
+    overflow: scroll;
+    display: none;
+}
+
+#icon9 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -360px;
+    right: -95%;
+    display: none;
+}
+
+
 /*navbar*/
 
 #angle {
