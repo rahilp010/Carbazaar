@@ -1,26 +1,23 @@
 <?php
-$conn = mysqli_connect("localhost","root","","carbazaar");
-if($conn==false){
-    die("error".mysqli_connect_error());
-}
 $username=$_POST["uname"];
+$phone=$_POST["phone1"];
 $email=$_POST["email"];
-$phone=$_POST["phone"];
 $password=$_POST["password"];
-$sql = " INSERT INTO user(Username,phone,email,password) VALUES('$username','$phone','$email','$password');";
-if(mysqli_query($conn, $sql)){
+
+$conn= new mysqli('localhost','root','','music_login');
+if($conn->connect_error){
+    die("error".$conn->connect_error);
+}
+else{
+    $stmt=$conn->prepare("insert into register (UserName,phone,email,password) values(?,?,?,?)");
+    $stmt->bind_param("siss",$username,$phone,$email,$password);
+    $stmt->execute();
     echo "<script>
-   alert('successfully Registered');
-   window.location.assign('login.html');
-   </script>";
+    alert('Register successfully');
+    window.location.assign('login.html');
+    </script>";
     $stmt->close();
     $conn->close();
 }
-else{
-    echo("ERROR: Hush ! Sorry $sql ".mysqli_error($conn));
-}
-mysqli_close($conn);
 ?>
-
-
 

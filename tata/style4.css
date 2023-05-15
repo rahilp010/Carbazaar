@@ -139,6 +139,52 @@ body {
     padding-right: 145px;
 }
 
+.searchlist::-webkit-scrollbar {
+    display: none;
+}
+
+#myUL {
+    padding: 10px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 23px;
+    list-style-type: none;
+    text-align: left;
+    word-spacing: 2px;
+    display: flexbox;
+}
+
+#myUL p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1.3px;
+}
+
+.searchlist {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    background-color: #fff;
+    display: flexbox;
+    overflow: scroll;
+    display: none;
+}
+
+#icon9 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -360px;
+    right: -95%;
+    display: none;
+}
+
 
 /*navbar*/
 
@@ -426,8 +472,8 @@ h2 {
 }
 
 .ad1 img {
-    width: 220px;
-    margin: 85px 0px 0px 135px;
+    width: 270px;
+    margin: 75px 0px 0px 105px;
 }
 
 .ad1 img:hover {
