@@ -24,14 +24,5 @@ document.getElementById("icon9").onclick = function() {
 
 
 function payment() {
-    var a = confirm('You want Test-Driver this Car !!');
-    if (a == 1) {
-        var b = prompt('Enter Address');
-        alert('Appointment is Granted');
-        let r = Math.floor(Math.random() * 1000000000);
-        alert('Appointment id is :' + r);
-    } else {
-        alert('Your Request is denied');
-    }
-
+    window.location.assign('http://localhost/Carbazaar/appointment.php');
 }

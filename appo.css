@@ -1,0 +1,38 @@
+.componet {
+    margin: 10px;
+}
+
+h1 {
+    padding: 10px
+}
+
+.content {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid;
+    width: 50%;
+    padding: 25px;
+}
+
+.content select {
+    width: 44%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content input {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content textarea {
+    width: 88%;
+    margin: 10px;
+    padding: 10px;
+}
