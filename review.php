@@ -203,7 +203,7 @@ mysqli_close($conn);
         <div class="section44" id="review">
             <p class="txt44" style="margin-bottom: 80px">Reviews</p>
             <div class="box41">
-                <form action="review.php" method="post">
+                <form action="review1.php" method="post">
                     <label class="us41">UserName :</label><br><br>
                     <input class="us42" type="text" name="username" required><br>
                     <label class="us41">Rating :</label><br><br>
@@ -220,20 +220,19 @@ mysqli_close($conn);
                     </div>
                 </form>
             </div>
-            
         </div>
-        <?php
+    </div>
+            <?php
             while($result = mysqli_fetch_assoc($data)){
             ?>
-              <div class="r111">
+            <div class="r111">
             <p class="r211"><?php echo $result['username'] ?></p>
             <p class="r311"><?php echo $result['review'] ?></p>
             <p class="r611"><?php echo 'Rating : ';echo $result['rating'];echo'/5' ?></p>
             </div>
             <?php
-            }
-            ?>
-    </div>
+                }
+        ?>
 
 
     <script src="search.js"></script>

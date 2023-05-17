@@ -26,7 +26,7 @@ else{
     $stmt->execute();
     echo "<script>
     alert('Review is Added');
-    window.location.assign('review1.php');
+    window.location.assign('review.php');
     </script>";
     $stmt->close();
     $conn->close();
