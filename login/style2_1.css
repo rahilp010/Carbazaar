@@ -11,6 +11,8 @@
 body {
     zoom: 80%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("backimg.png");
+    background-position-y:17%;
 }
 
 section {
@@ -18,7 +20,7 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 40px;
+    top:230px;
 }
 
 .fbox {
