@@ -1,131 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sedan | CarBazaar</title>
-    <link rel="stylesheet" href="style3.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
-    <link rel="icon" href="logo.png" type="img/png">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sedan | CarBazaar</title>
+        <link rel="stylesheet" href="style3.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
+        <link rel="icon" href="logo.png" type="img/png">
+    </head>
+    <?php
+$email=$_SESSION['email'];
+if($email==true){
 
-<body>
-    <div class="content">
-        <div class="I">
-            <img id="i1" src="image/logo/CarBazaar-removebg-preview.png" alt="car bazaar" />
-            <div class="searchbar">
-                <div class="logo2">CarBazaar</div>
-                <div class="wrapper">
-                    <div class="container90">
-                        <div class="search_wrap search_wrap_6">
-                            <div class="search_box">
-                                <div class="searchlist" id="searchlist">
-                                    <div id="myUL">
-                                        <p><a href="Maruti suzuki/suzuki.html">Maruti Suzuki</a></p>
-                                        <p><a href="Mahindra/mahindra.html">Mahindra</a></p>
-                                        <p><a href="Hyundai/hyundai.html">Hyundai</a></p>
-                                        <p><a href="tata//tata.html">Tata</a></p>
-                                        <p><a href="honda/honda.html">Honda</a></p>
-                                        <p><a href="kia/kia.html">Kia</a></p>
-                                        <p><a href="MG/mg.html">MG</a></p>
-                                        <p><a href="toyota/toyota.html">Toyota</a></p>
-                                        <p><a href="nissan/nissan.html">Nissan</a></p>
-                                        <p><a href="renault/renault.html">Renault</a></p>
-                                        <p><a href="skoda/skoda.html">Skoda</a></p>
-                                        <p><a href="volkswagen/volkswagen.html">Volkswagen</a></p>
-                                        <p><a href="Maruti suzuki/Maruti Swift.html">Maruti Swift</a></p>
-                                        <p><a href="Maruti suzuki/ertiga.html">Maruti Ertiga</a></p>
-                                        <p><a href="Maruti suzuki/Alto.html">Maruti Alto</a></p>
-                                        <p><a href="Maruti suzuki/altok10.html">Maruti Alto K10</a></p>
-                                        <p><a href="Maruti suzuki/celerio.html">Maruti Celerio</a></p>
-                                        <p><a href="Maruti suzuki/ciaz.html">Maruti Ciaz</a></p>
-                                        <p><a href="Maruti suzuki/dzire.html">Maruti Dzire</a></p>
-                                        <p><a href="Maruti suzuki/eeco.html">Maruti EECO</a></p>
-                                        <p><a href="Maruti suzuki/grandvitara.html">Maruti Grand Vitara</a></p>
-                                        <p><a href="Maruti suzuki/ignis.html">Maruti Ignis</a></p>
-                                        <p><a href="Maruti suzuki/Maruti Baleno.html">Maruti Baleno</a></p>
-                                        <p><a href="Maruti suzuki/Maruti Brezza.html">Maruti Brezza</a></p>
-                                        <p><a href="Maruti suzuki/spresso.html">Maruti Spresso</a></p>
-                                        <p><a href="Maruti suzuki/wagonr.html">Maruti WegonR</a></p>
-                                        <p><a href="Maruti suzuki/xl6.html">Maruti XL6</a></p>
-                                        <p><a href="Mahindra/thar.html">Mahindra Thar</a></p>
-                                        <p><a href="Mahindra/xuv700.html">Mahindra XUV700</a></p>
-                                        <p><a href="Mahindra/xuv300.html">Mahindra XUV300</a></p>
-                                        <p><a href="Mahindra/xuv400.html">Mahindra XUV400</a></p>
-                                        <p><a href="Mahindra/bolero.html">Mahindra Bolero</a></p>
-                                        <p><a href="Mahindra/boleroneo.html">Mahindra Bolero-Neo</a></p>
-                                        <p><a href="Mahindra/kuv100nxt.html">Mahindra KUV100 NXT</a></p>
-                                        <p><a href="Mahindra/scorpioclassic.html">Mahindra Scorpio-Classic</a></p>
-                                        <p><a href="Mahindra/scorpion.html">Mahindra Scorpio-N</a></p>
-                                        <p><a href="Mahindra/marrazo.html">Mahindra Marrazo</a></p>
-                                        <p><a href="MG/hector.html">MG Hector</a></p>
-                                        <p><a href="MG/astor.html">MG Astor</a></p>
-                                        <p><a href="MG/gloster.html">MG Gloster</a></p>
-                                        <p><a href="MG/zsev.html">MG ZS-EV</a></p>
-                                        <p><a href="Hyundai/i20.html">Hyundai i20</a></p>
-                                        <p><a href="Hyundai/kona.html">Hyundai kona</a></p>
-                                        <p><a href="Hyundai/alcazar.html">Hyundai Alcazar</a></p>
-                                        <p><a href="Hyundai/aura.html">Hyundai Aura</a></p>
-                                        <p><a href="Hyundai/creta.html">Hyundai Creta</a></p>
-                                        <p><a href="Hyundai/grandi10.html">Hyundai Grand i10</a></p>
-                                        <p><a href="Hyundai/ioniq5.html">Hyundai Ioniq5</a></p>
-                                        <p><a href="Hyundai/tucson.html">Hyundai Tucson</a></p>
-                                        <p><a href="Hyundai/venue.html">Hyundai Venue</a></p>
-                                        <p><a href="kia/sonet.html">Kia Sonet</a></p>
-                                        <p><a href="kia/carens.html">Kia Carens</a></p>
-                                        <p><a href="kia/carnival.html">Kia Carnival</a></p>
-                                        <p><a href="kia/ev6.html">Kia EV6</a></p>
-                                        <p><a href="kia/seltos.html">Kia Seltos</a></p>
-                                        <p><a href="tata/harrier.html">Tata Harrier</a></p>
-                                        <p><a href="tata/nexon.html">Tata Nexon</a></p>
-                                        <p><a href="tata/nexon ev max.html">Tata Nexon EV-Max</a></p>
-                                        <p><a href="tata/altroz.html">Tata Altroz</a></p>
-                                        <p><a href="tata/punch.html">Tata Punch</a></p>
-                                        <p><a href="tata/safari.html">Tata Safari</a></p>
-                                        <p><a href="tata/tiago.html">Tata Tiago</a></p>
-                                        <p><a href="tata/tigor.html">Tata Tigor</a></p>
-                                        <p><a href="tata/tigorev.html">Tata Tigor-EV</a></p>
-                                        <p><a href="tata/tiago ev.html">Tata Tiago-EV</a></p>
-                                        <p><a href="honda/amaze.html">Honda Amaze</a></p>
-                                        <p><a href="honda/city.html">Honda City</a></p>
-                                        <p><a href="honda/jazz.html">Honda Jazz</a></p>
-                                        <p><a href="honda/wrv.html">Honda WR-V</a></p>
-                                        <p><a href="toyota/fortuner.html">Toyota Fortuner</a></p>
-                                        <p><a href="toyota/vellfire.html">Toyota Vellfire</a></p>
-                                        <p><a href="toyota/camry.html">Toyota Camry</a></p>
-                                        <p><a href="toyota/glanza.html">Toyota Glanza</a></p>
-                                        <p><a href="toyota/urbancruiser.html">Toyota Toyota Urban Cruiser Hyryder</a></p>
-                                        <p><a href="toyota/Hycross.html">Toyota Innova Hycross</a></p>
-                                        <p><a href="nissan/kicks.html">Nissan Kicks</a></p>
-                                        <p><a href="nissan/magnite.html">Nissan Magnite</a></p>
-                                        <p><a href="skoda/kodiaq.html">Skoda Kodiaq</a></p>
-                                        <p><a href="skoda/kushaq.html">Skoda Kushaq</a></p>
-                                        <p><a href="skoda/octavia.html">Skoda Octavia</a></p>
-                                        <p><a href="skoda/slavia.html">Skoda Slavia</a></p>
-                                        <p><a href="skoda/superb.html">Skoda Superb</a></p>
-                                        <p><a href="volkswagen/taigun.html">Volkswagen Taigun</a></p>
-                                        <p><a href="volkswagen/tiguan.html">Volkswagen Tiguan</a></p>
-                                        <p><a href="volkswagen/virtus.html">Volkswagen Virtus</a></p>
-                                        <p><a href="renault/triber.html">Renault Triber</a></p>
-                                        <p><a href="renault/kiger.html">Renault Kiger </a></p>
-                                        <p><a href="renault/kwid.html">Renault Kwid</a></p>
+}
+else{
+    header('location:login/login.html');
+}
+?>
+
+        <body>
+            <div class="content">
+                <div class="I">
+                    <img id="i1" src="image/logo/CarBazaar-removebg-preview.png" alt="car bazaar" />
+                    <div class="searchbar">
+                        <div class="logo2">CarBazaar</div>
+                        <div class="wrapper">
+                            <div class="container90">
+                                <div class="search_wrap search_wrap_6">
+                                    <div class="search_box">
+                                        <div class="searchlist" id="searchlist">
+                                            <div id="myUL">
+                                                <p><a href="Maruti suzuki/suzuki.html">Maruti Suzuki</a></p>
+                                                <p><a href="Mahindra/mahindra.html">Mahindra</a></p>
+                                                <p><a href="Hyundai/hyundai.html">Hyundai</a></p>
+                                                <p><a href="tata/tata.html">Tata</a></p>
+                                                <p><a href="honda/honda.html">Honda</a></p>
+                                                <p><a href="kia/kia.html">Kia</a></p>
+                                                <p><a href="MG/mg.html">MG</a></p>
+                                                <p><a href="toyota/toyota.html">Toyota</a></p>
+                                                <p><a href="nissan/nissan.html">Nissan</a></p>
+                                                <p><a href="renault/renault.html">Renault</a></p>
+                                                <p><a href="skoda/skoda.html">Skoda</a></p>
+                                                <p><a href="volkswagen/volkswagen.html">Volkswagen</a></p>
+                                                <p><a href="Maruti suzuki/Maruti Swift.html">Maruti Swift</a></p>
+                                                <p><a href="Maruti suzuki/ertiga.html">Maruti Ertiga</a></p>
+                                                <p><a href="Maruti suzuki/Alto.html">Maruti Alto</a></p>
+                                                <p><a href="Maruti suzuki/altok10.html">Maruti Alto K10</a></p>
+                                                <p><a href="Maruti suzuki/celerio.html">Maruti Celerio</a></p>
+                                                <p><a href="Maruti suzuki/ciaz.html">Maruti Ciaz</a></p>
+                                                <p><a href="Maruti suzuki/dzire.html">Maruti Dzire</a></p>
+                                                <p><a href="Maruti suzuki/eeco.html">Maruti EECO</a></p>
+                                                <p><a href="Maruti suzuki/grandvitara.html">Maruti Grand Vitara</a></p>
+                                                <p><a href="Maruti suzuki/ignis.html">Maruti Ignis</a></p>
+                                                <p><a href="Maruti suzuki/Maruti Baleno.html">Maruti Baleno</a></p>
+                                                <p><a href="Maruti suzuki/Maruti Brezza.html">Maruti Brezza</a></p>
+                                                <p><a href="Maruti suzuki/spresso.html">Maruti Spresso</a></p>
+                                                <p><a href="Maruti suzuki/wagonr.html">Maruti WegonR</a></p>
+                                                <p><a href="Maruti suzuki/xl6.html">Maruti XL6</a></p>
+                                                <p><a href="Mahindra/thar.html">Mahindra Thar</a></p>
+                                                <p><a href="Mahindra/xuv700.html">Mahindra XUV700</a></p>
+                                                <p><a href="Mahindra/xuv300.html">Mahindra XUV300</a></p>
+                                                <p><a href="Mahindra/xuv400.html">Mahindra XUV400</a></p>
+                                                <p><a href="Mahindra/bolero.html">Mahindra Bolero</a></p>
+                                                <p><a href="Mahindra/boleroneo.html">Mahindra Bolero-Neo</a></p>
+                                                <p><a href="Mahindra/kuv100nxt.html">Mahindra KUV100 NXT</a></p>
+                                                <p><a href="Mahindra/scorpioclassic.html">Mahindra Scorpio-Classic</a></p>
+                                                <p><a href="Mahindra/scorpion.html">Mahindra Scorpio-N</a></p>
+                                                <p><a href="Mahindra/marrazo.html">Mahindra Marrazo</a></p>
+                                                <p><a href="MG/hector.html">MG Hector</a></p>
+                                                <p><a href="MG/astor.html">MG Astor</a></p>
+                                                <p><a href="MG/gloster.html">MG Gloster</a></p>
+                                                <p><a href="MG/zsev.html">MG ZS-EV</a></p>
+                                                <p><a href="Hyundai/i20.html">Hyundai i20</a></p>
+                                                <p><a href="Hyundai/kona.html">Hyundai kona</a></p>
+                                                <p><a href="Hyundai/alcazar.html">Hyundai Alcazar</a></p>
+                                                <p><a href="Hyundai/aura.html">Hyundai Aura</a></p>
+                                                <p><a href="Hyundai/creta.html">Hyundai Creta</a></p>
+                                                <p><a href="Hyundai/grandi10.html">Hyundai Grand i10</a></p>
+                                                <p><a href="Hyundai/ioniq5.html">Hyundai Ioniq5</a></p>
+                                                <p><a href="Hyundai/tucson.html">Hyundai Tucson</a></p>
+                                                <p><a href="Hyundai/venue.html">Hyundai Venue</a></p>
+                                                <p><a href="kia/sonet.html">Kia Sonet</a></p>
+                                                <p><a href="kia/carens.html">Kia Carens</a></p>
+                                                <p><a href="kia/carnival.html">Kia Carnival</a></p>
+                                                <p><a href="kia/ev6.html">Kia EV6</a></p>
+                                                <p><a href="kia/seltos.html">Kia Seltos</a></p>
+                                                <p><a href="tata/harrier.html">Tata Harrier</a></p>
+                                                <p><a href="tata/nexon.html">Tata Nexon</a></p>
+                                                <p><a href="tata/nexon ev max.html">Tata Nexon EV-Max</a></p>
+                                                <p><a href="tata/altroz.html">Tata Altroz</a></p>
+                                                <p><a href="tata/punch.html">Tata Punch</a></p>
+                                                <p><a href="tata/safari.html">Tata Safari</a></p>
+                                                <p><a href="tata/tiago.html">Tata Tiago</a></p>
+                                                <p><a href="tata/tigor.html">Tata Tigor</a></p>
+                                                <p><a href="tata/tigorev.html">Tata Tigor-EV</a></p>
+                                                <p><a href="tata/tiago ev.html">Tata Tiago-EV</a></p>
+                                                <p><a href="honda/amaze.html">Honda Amaze</a></p>
+                                                <p><a href="honda/city.html">Honda City</a></p>
+                                                <p><a href="honda/jazz.html">Honda Jazz</a></p>
+                                                <p><a href="honda/wrv.html">Honda WR-V</a></p>
+                                                <p><a href="toyota/fortuner.html">Toyota Fortuner</a></p>
+                                                <p><a href="toyota/vellfire.html">Toyota Vellfire</a></p>
+                                                <p><a href="toyota/camry.html">Toyota Camry</a></p>
+                                                <p><a href="toyota/glanza.html">Toyota Glanza</a></p>
+                                                <p><a href="toyota/urbancruiser.html">Toyota Toyota Urban Cruiser Hyryder</a></p>
+                                                <p><a href="toyota/Hycross.html">Toyota Innova Hycross</a></p>
+                                                <p><a href="nissan/kicks.html">Nissan Kicks</a></p>
+                                                <p><a href="nissan/magnite.html">Nissan Magnite</a></p>
+                                                <p><a href="skoda/kodiaq.html">Skoda Kodiaq</a></p>
+                                                <p><a href="skoda/kushaq.html">Skoda Kushaq</a></p>
+                                                <p><a href="skoda/octavia.html">Skoda Octavia</a></p>
+                                                <p><a href="skoda/slavia.html">Skoda Slavia</a></p>
+                                                <p><a href="skoda/superb.html">Skoda Superb</a></p>
+                                                <p><a href="volkswagen/taigun.html">Volkswagen Taigun</a></p>
+                                                <p><a href="volkswagen/tiguan.html">Volkswagen Tiguan</a></p>
+                                                <p><a href="volkswagen/virtus.html">Volkswagen Virtus</a></p>
+                                                <p><a href="renault/triber.html">Renault Triber</a></p>
+                                                <p><a href="renault/kiger.html">Renault Kiger </a></p>
+                                                <p><a href="renault/kwid.html">Renault Kwid</a></p>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="input" id="myInput" placeholder="Search Cars and Brands......." onkeyup="Searchup()" autocomplete="off">
+                                        <a href="">
+                                            <lord-icon id="icon9" src="https://cdn.lordicon.com/mkxtghuq.json" trigger="hover" colors="outline:#ffffff,primary:#66a1ee,secondary:#ebe6ef">
+                                            </lord-icon>
+                                        </a>
+                                        <div class="btn">
+                                            <p>Search</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <input type="text" class="input" id="myInput" placeholder="Search Cars and Brands......." onkeyup="Searchup()" autocomplete="off">
-                                <a href="">
-                                    <lord-icon id="icon9" src="https://cdn.lordicon.com/mkxtghuq.json" trigger="hover" colors="outline:#ffffff,primary:#66a1ee,secondary:#ebe6ef">
-                                    </lord-icon>
-                                </a>
-                                <div class="btn">
-                                    <p>Search</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <select name="lan" id="lan" class="lan">
+                        <select name="lan" id="lan" class="lan">
                     <option value="English">English</option>
                     <option value="Hindi">हिन्दी </option>
                     <option value="Gujrati">ગુજરાતી</option>
@@ -134,374 +146,374 @@
                     <option value="Malayalam">മലയാളം</option>
                     <option value="Kannada">ಕನ್ನಡ</option>
                 </select>
-                <div class="ico1">
-                    <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
+                        <div class="ico1">
+                            <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
+                        </div>
+                        <a href="login/login.html" class="sign">LogOut</a>
+                    </div>
                 </div>
-                <a href="login/login.html" class="sign">Login / Register</a>
+                <div class="menu">
+                    <ul>
+                        <li class="a1"><a href="web1.html">Home</a></li>
+                        <li class="a1">
+                            <a href="#">New Cars <i id="angle" class="fa-solid fa-angle-down"></i></a>
+                            <div class="submenu" style="margin-left: 30px">
+                                <ul style="background-color: transparent">
+                                    <li><a href="http://localhost/Carbazaar/web1.html#popularbrands">Popular Brands</a> </li>
+                                    <li><a href="http://localhost/Carbazaar/web1.html#latest">Latest Cars</a></li>
+                                    <li><a href="http://localhost/Carbazaar/web1.html#most search">Most Search Cars</a></li>
+                                    <li><a href="http://localhost/Carbazaar/web1.html#upcoming">Upcoming Cars</a></li>
+                                    <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
+                                        <div class="submenu2">
+                                            <ul>
+                                                <li><a href="../hatchback.html">Hatchback</a></li>
+                                                <li><a href="../sedan.html">Sedan</a></li>
+                                                <li><a href="../muv.html">MUV</a></li>
+                                                <li><a href="../suv.html">SUV</a></li>
+                                                <li><a href="../hybrid.html">Hybrid</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Sell Cars
+                    <i id="angle" class="fa-solid fa-angle-down"></i></a>
+                            <div class="submenu" style="margin-left: 30px;">
+                                <ul style="background-color: transparent;">
+                                    <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#inspection">Car Inspection</a> </li>
+                                    <li><a href="used/used.html">Used Cars</a> </li>
+                                    <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#bybrands">Sell car by Brands</a></li>
+                                    <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#FAQS">FAQS </a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="compare cars/compare.html">Compare Cars</a></li>
+                        <li><a href="#">Service Booking
+                    <i id="angle" class="fa-solid fa-angle-down"></i>
+                </a>
+                            <div class="submenu" style="margin-left:10px;">
+                                <ul style="background-color: transparent;">
+                                    <li><a href="appointment.php">Book my sloat</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="review.php"> Reviews</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="menu">
-            <ul>
-                <li class="a1"><a href="web1.html">Home</a></li>
-                <li class="a1">
-                    <a href="#">New Cars <i id="angle" class="fa-solid fa-angle-down"></i></a>
-                    <div class="submenu" style="margin-left: 30px">
-                        <ul style="background-color: transparent">
-                            <li><a href="">Popular Brands</a></li>
-                            <li><a href="">Latest Cars</a></li>
-                            <li><a href="">Most Search Cars</a></li>
-                            <li><a href="">Upcoming Cars</a></li>
-                            <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
-                                <div class="submenu2">
-                                    <ul>
-                                        <li><a href="hatchback.html">Hatchback</a></li>
-                                        <li><a href="sedan.html">Sedan</a></li>
-                                        <li><a href="muv.html">MUV</a></li>
-                                        <li><a href="suv.html">SUV</a></li>
-                                        <li><a href="hybrid.html">Hybrid</a></li>
-                                    </ul>
+            <br />
+            <section class="section">
+                <div class="container71" style="float: left;">
+                    <div class="content71">
+                        <h1>Best Sedan Cars in India</h1>
+                        <div>
+                            <div class="desc71">
+                                The Best Sedan cars in India include Honda City (Rs. 11.49 Lakh), Maruti Dzire (Rs. 6.44 Lakh), Hyundai Aura (Rs. 6.30 Lakh), Honda Amaze (Rs. 6.89 Lakh), Volkswagen Virtus (Rs. 11.32 Lakh), & top brands are Honda, Maruti Suzuki, Hyundai, Volkswagen.
+                                Explore the list of top Sedan cars & check the price in your city, latest offers, variants, specifications, pictures, mileage and reviews. Select your desired new car model from the list below.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p1" style="float: left;height:3900px">
+                    <section id="section1">
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="honda/city.html" class="a1"><img src="image/cars/honda city.jpeg" alt="city" /></a>
+                                <div class="desc">Honda City</div>
+                                <div class="desc">₹ 11.49 - 15.97 Lakh*
+                                    <span class="d15">Get On Road Price</span>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Sell Cars <i id="angle" class="fa-solid fa-angle-down"></i></a>
-                    <div class="submenu" style="margin-left: 30px">
-                        <ul style="background-color: transparent">
-                            <li><a href="#">Sell Car in your City</a></li>
-                            <li><a href="#">Used Cars</a></li>
-                            <li><a href="">Sell car by Brands</a></li>
-                            <li><a href="">FAQS </a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">Compare Cars</a></li>
-                <li>
-                    <a href="#">Service Booking
-                        <i id="angle" class="fa-solid fa-angle-down"></i>
-                    </a>
-                    <div class="submenu" style="margin-left: 10px">
-                        <ul style="background-color: transparent">
-                            <li><a href="#">Book my sloat</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="review.php"> Reviews</a></li>
-            </ul>
-        </div>
-    </div>
-    <br />
-    <section class="section">
-        <div class="container71" style="float: left;">
-            <div class="content71">
-                <h1>Best Sedan Cars in India</h1>
-                <div>
-                    <div class="desc71">
-                        The Best Sedan cars in India include Honda City (Rs. 11.49 Lakh), Maruti Dzire (Rs. 6.44 Lakh), Hyundai Aura (Rs. 6.30 Lakh), Honda Amaze (Rs. 6.89 Lakh), Volkswagen Virtus (Rs. 11.32 Lakh), & top brands are Honda, Maruti Suzuki, Hyundai, Volkswagen.
-                        Explore the list of top Sedan cars & check the price in your city, latest offers, variants, specifications, pictures, mileage and reviews. Select your desired new car model from the list below.
+                                <div class="desc1">18.04 kmpl | 1498 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="Maruti suzuki/dzire.html" class="a1"><img src="image/cars/dzire.jpg" alt="dzire" /></a>
+                                <div class="desc">Maruti Dzire</div>
+                                <div class="desc">₹ 6.44 - 9.31 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">24.12 kmpl | 1197 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="Hyundai/aura.html" class="a1"><img src="image/cars/Aura.jpeg" alt="aura" /></a>
+                                <div class="desc">Hyundai Aura</div>
+                                <div class="desc">₹ 6.30 - 8.87 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">20.1 kmpl | 1197cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="honda/amaze.html" class="a1"><img src="image/cars/Amaze.jpeg" alt="amaze" /></a>
+                                <div class="desc">Honda Amaze</div>
+                                <div class="desc">₹ 6.89 - 9.48 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">18.04 kmpl | 1199 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="volkswagen/virtus.html" class="a1"><img src="image/cars/virtus.jpeg" alt="virtus" /></a>
+                                <div class="desc">Volkswagen Virtus</div>
+                                <div class="desc">₹ 11.32 - 18.42 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">18.67 kmpl | 1498 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="skoda/slavia.html" class="a1"><img src="image/cars/slavia.jpeg" alt="slavia" /></a>
+                                <div class="desc">Skoda Slavia</div>
+                                <div class="desc">₹ 11.29 - 18.40 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">18.41 kmpl | 1498 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="tata/tigor.html" class="a1"><img src="image/cars/tigor.jpg" alt="tigor" /></a>
+                                <div class="desc">Tata Tigor</div>
+                                <div class="desc">₹ 6.20 - 8.90 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">26.49 kmpl | 1199 cc | CNG</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="skoda/superb.html" class="a1"><img src="image/cars/superb.jpeg" alt="superb" /></a>
+                                <div class="desc">Skoda Superb</div>
+                                <div class="desc">₹ 34.19 - 37.29 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">15.1 kmpl | 1984 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="skoda/octavia.html" class="a1"><img src="image/cars/Octavia.jpeg" alt="octavia" /></a>
+                                <div class="desc">Skoda Octavia</div>
+                                <div class="desc">₹ 27.35 - 30.45 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">15.81 kmpl | 1984 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="Maruti suzuki/ciaz.html" class="a1"><img src="image/cars/maruti-ciaz.jpg" alt="Ciaz" /></a>
+                                <div class="desc">Maruti Suzuki Ciaz</div>
+                                <div class="desc">₹ 9.20 - 12.19 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">20.65 kmpl | 1462 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con">
+                            <div class="gallery">
+                                <a href="toyota/camry.html" class="a1"><img src="image/cars/camry.jpeg" alt="camry" /></a>
+                                <div class="desc">Toyota Camry</div>
+                                <div class="desc">₹ 45.25 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">2498 cc | Petrol</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <a href="tata/tigorev.html" class="a1"><img src="image/cars/tigor-ev.jpg" alt="tigor-ev" /></a>
+                                <div class="desc">Tata Tigor EV</div>
+                                <div class="desc">₹ 12.49 - 13.75 Lakh*
+                                    <span class="d15">Get On Road Price</span>
+                                </div>
+                                <div class="desc1">Electric</div>
+                                <div class="b1">
+                                    <a href=""><input type="button" value="View Details"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="p2" style="float: left">
+                    <div class="main1">
+                        <section>
+                            <p style="margin: 30px 0px 0px 30px;letter-spacing: 2px;">
+                                <b style="font-size: 30px">Top Brands</b>
+                            </p>
+                            <hr style="margin: 0px 30px 50px 30px" />
+                            <div class="con1">
+                                <div class="box1">
+                                    <a href="Maruti suzuki/suzuki.html"><img src="image/logo/Suzuki-Logo-PNG-Transparent.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Mahindra/mahindra.html"><img src="image/logo/Mahindra-Logo.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Hyundai/hyundai.html"><img src="image/logo/hyundai logo.png " alt=" " />
+                                    </a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Kia/kia.html"> <img src="image/logo/ogi-kia.jpg " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Tata/tata.html"> <img src="image/logo/tata logo.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Honda/honda.html">
+                                        <img src="image/logo/Honda-Logo.jpg " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="MG/mg.html"> <img src="image/logo/mg.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Toyota/toyota.html"> <img src="image/logo/toyota.jpg " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="Volkswagen/volkswagen.html">
+                                        <img src="image/logo/volkswagen.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="nissan/nissan.html">
+                                        <img src="image/logo/nissan.png " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="renault/renault.html"> <img src="image/logo/renault.jpg " alt=" " /></a>
+                                </div>
+                                <div class="box1">
+                                    <a href="skoda/skoda.html"><img src="image/logo/skoda.jpeg " alt=" " /></a>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="p1" style="float: left;height:3900px">
-            <section id="section1">
-                <div class="con">
-                    <div class="gallery">
-                        <a href="honda/city.html" class="a1"><img src="image/cars/honda city.jpeg" alt="city" /></a>
-                        <div class="desc">Honda City</div>
-                        <div class="desc">₹ 11.49 - 15.97 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">18.04 kmpl | 1498 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                    <div class="gallery">
-                        <a href="Maruti suzuki/dzire.html" class="a1"><img src="image/cars/dzire.jpg" alt="dzire" /></a>
-                        <div class="desc">Maruti Dzire</div>
-                        <div class="desc">₹ 6.44 - 9.31 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">24.12 kmpl | 1197 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
+                <div class="p3" style="float: left">
+                    <div class="emi">EMI Starts</div>
+                    <span class="emi0"><ion-icon name="cash-outline"></ion-icon></span>
+                    <div class="emi1"> ₹ 12,970 /Month</div>
+                    <div class="emi2">Interest calculated at 9.8% for 60 months</div>
+                    <div class="emi3"><input type="button" value="View Finance Offers"></div>
                 </div>
-                <div class="con">
-                    <div class="gallery">
-                        <a href="Hyundai/aura.html" class="a1"><img src="image/cars/Aura.jpeg" alt="aura" /></a>
-                        <div class="desc">Hyundai Aura</div>
-                        <div class="desc">₹ 6.30 - 8.87 Lakh*
-                            <span class="d15">Get On Road Price</span>
+                <div class="p4" style="float: right;">
+                    <div class="txt2">Popular Cars by Bodytype</div>
+                    <div class="con2">
+                        <div class="box2">
+                            <a href="../hatchback.html"><img src="image/cars/hatchback.png " alt="Hatchback" /> Hatchback</a>
                         </div>
-                        <div class="desc1">20.1 kmpl | 1197cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
+                        <div class="box2">
+                            <a href="../muv.html"><img src="image/cars/MUV.png" alt="MUV" />MUV</a>
                         </div>
+                        <div class="box2">
+                            <a href="../suv.html"><img src="image/cars/SUV.png" alt="SUV" />SUV</a>
+                        </div>
+                        <div class="box2">
+                            <a href="../hybrid.html"> <img src="image/cars/hybrid.png " alt="hybrid" />Hybrid</a>
+                        </div>
+                        <div class="box2">
+                            <a href="../minivan.html"><img src="image/cars/minivan.png" alt="minivan" />Minivan</a>
+                        </div>
+
                     </div>
-                    <div class="gallery">
-                        <a href="honda/amaze.html" class="a1"><img src="image/cars/Amaze.jpeg" alt="amaze" /></a>
-                        <div class="desc">Honda Amaze</div>
-                        <div class="desc">₹ 6.89 - 9.48 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">18.04 kmpl | 1199 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="con">
-                    <div class="gallery">
-                        <a href="volkswagen/virtus.html" class="a1"><img src="image/cars/virtus.jpeg" alt="virtus" /></a>
-                        <div class="desc">Volkswagen Virtus</div>
-                        <div class="desc">₹ 11.32 - 18.42 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">18.67 kmpl | 1498 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                    <div class="gallery">
-                        <a href="skoda/slavia.html" class="a1"><img src="image/cars/slavia.jpeg" alt="slavia" /></a>
-                        <div class="desc">Skoda Slavia</div>
-                        <div class="desc">₹ 11.29 - 18.40 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">18.41 kmpl | 1498 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="con">
-                    <div class="gallery">
-                        <a href="tata/tigor.html" class="a1"><img src="image/cars/tigor.jpg" alt="tigor" /></a>
-                        <div class="desc">Tata Tigor</div>
-                        <div class="desc">₹ 6.20 - 8.90 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">26.49 kmpl | 1199 cc | CNG</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                    <div class="gallery">
-                        <a href="skoda/superb.html" class="a1"><img src="image/cars/superb.jpeg" alt="superb" /></a>
-                        <div class="desc">Skoda Superb</div>
-                        <div class="desc">₹ 34.19 - 37.29 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">15.1 kmpl | 1984 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="con">
-                    <div class="gallery">
-                        <a href="skoda/octavia.html" class="a1"><img src="image/cars/Octavia.jpeg" alt="octavia" /></a>
-                        <div class="desc">Skoda Octavia</div>
-                        <div class="desc">₹ 27.35 - 30.45 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">15.81 kmpl | 1984 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                    <div class="gallery">
-                        <a href="Maruti suzuki/ciaz.html" class="a1"><img src="image/cars/maruti-ciaz.jpg" alt="Ciaz" /></a>
-                        <div class="desc">Maruti Suzuki Ciaz</div>
-                        <div class="desc">₹ 9.20 - 12.19 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">20.65 kmpl | 1462 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="con">
-                    <div class="gallery">
-                        <a href="toyota/camry.html" class="a1"><img src="image/cars/camry.jpeg" alt="camry" /></a>
-                        <div class="desc">Toyota Camry</div>
-                        <div class="desc">₹ 45.25 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">2498 cc | Petrol</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                    <div class="gallery">
-                        <a href="tata/tigorev.html" class="a1"><img src="image/cars/tigor-ev.jpg" alt="tigor-ev" /></a>
-                        <div class="desc">Tata Tigor EV</div>
-                        <div class="desc">₹ 12.49 - 13.75 Lakh*
-                            <span class="d15">Get On Road Price</span>
-                        </div>
-                        <div class="desc1">Electric</div>
-                        <div class="b1">
-                            <a href=""><input type="button" value="View Details"></a>
-                        </div>
-                    </div>
-                </div>
             </section>
-        </div>
-        <div class="p2" style="float: left">
-            <div class="main1">
-                <section>
-                    <p style="margin: 30px 0px 0px 30px;letter-spacing: 2px;">
-                        <b style="font-size: 30px">Top Brands</b>
-                    </p>
-                    <hr style="margin: 0px 30px 50px 30px" />
-                    <div class="con1">
-                        <div class="box1">
-                            <a href="Maruti suzuki/suzuki.html"><img src="image/logo/Suzuki-Logo-PNG-Transparent.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Mahindra/mahindra.html"><img src="image/logo/Mahindra-Logo.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Hyundai/hyundai.html"><img src="image/logo/hyundai logo.png " alt=" " />
-                            </a>
-                        </div>
-                        <div class="box1">
-                            <a href="Kia/kia.html"> <img src="image/logo/ogi-kia.jpg " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Tata/tata.html"> <img src="image/logo/tata logo.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Honda/honda.html">
-                                <img src="image/logo/Honda-Logo.jpg " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="MG/mg.html"> <img src="image/logo/mg.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Toyota/toyota.html"> <img src="image/logo/toyota.jpg " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="Volkswagen/volkswagen.html">
-                                <img src="image/logo/volkswagen.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="nissan/nissan.html">
-                                <img src="image/logo/nissan.png " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="renault/renault.html"> <img src="image/logo/renault.jpg " alt=" " /></a>
-                        </div>
-                        <div class="box1">
-                            <a href="skoda/skoda.html"><img src="image/logo/skoda.jpeg " alt=" " /></a>
+            <div style="float: left">
+                <div class="container1">
+                    <div class="componet1">
+                        <i id="f2" class="fa-duotone fa-award fa-6x"></i>
+                        <span id="d1">India's #1</span>
+                        <span id="d2">Largest Auto Seller</span>
+                    </div>
+                    <div class="componet1">
+                        <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
+                        <span id="d3">Service</span>
+                        <span id="d4">10,000+ Service station</span>
+                    </div>
+                    <div class="componet1">
+                        <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
+                        <span id="d5">Car Sold</span>
+                        <span id="d6">Every 5 minute</span>
+                    </div>
+                    <div class="componet1">
+                        <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
+                        <span id="d7">Compare</span>
+                        <span id="d8">Decode the right car</span>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="componet2">
+                        <div class="m1">
+                            <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
+                            <div class="text1">
+                                <p>About us</p>
+                                <p>FAQs</p>
+                                <p>Privacy Policy</p>
+                                <p>Terms & Conditions</p>
+                                <p>Corporate Policies</p>
+                                <p>Investors</p>
+                            </div>
                         </div>
                     </div>
-                </section>
+                    <div class="componet3">
+                        <div class="m2">
+                            <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
+                            <div class="text2">
+                                <p>1800 910 9111 (Toll-Free)</p>
+                                <p>support@carbazaar.com</p>
+                                <p>Dealer solutions</p>
+                                <p>Used Cars Business</p>
+                                <p>Contact Us</p>
+                                <p>Feedback</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="componet4">
+                        <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
+                        <div class="foot2">Connect :</div>
+                        <div class="foot3">
+                            <i class="fa-brands fa-instagram fa-2xl"></i>
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                            <i class="fa-brands fa-twitter fa-2xl"></i>
+                            <i class="fa-brands fa-github fa-2xl"></i>
+                            <i class="fa-brands fa-facebook fa-2xl"></i>
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="p3" style="float: left">
-            <div class="emi">EMI Starts</div>
-            <span class="emi0"><ion-icon name="cash-outline"></ion-icon></span>
-            <div class="emi1"> ₹ 12,970 /Month</div>
-            <div class="emi2">Interest calculated at 9.8% for 60 months</div>
-            <div class="emi3"><input type="button" value="View Finance Offers"></div>
-        </div>
-        <div class="p4" style="float: right;">
-            <div class="txt2">Popular Cars by Bodytype</div>
-            <div class="con2">
-                <div class="box2">
-                    <a href="../hatchback.html"><img src="image/cars/hatchback.png " alt="Hatchback" /> Hatchback</a>
-                </div>
-                <div class="box2">
-                    <a href="../muv.html"><img src="image/cars/MUV.png" alt="MUV" />MUV</a>
-                </div>
-                <div class="box2">
-                    <a href="../suv.html"><img src="image/cars/SUV.png" alt="SUV" />SUV</a>
-                </div>
-                <div class="box2">
-                    <a href="../hybrid.html"> <img src="image/cars/hybrid.png " alt="hybrid" />Hybrid</a>
-                </div>
-                <div class="box2">
-                    <a href="../minivan.html"><img src="image/cars/minivan.png" alt="minivan" />Minivan</a>
-                </div>
+            <script src="../search.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+        </body>
 
-            </div>
-    </section>
-    <div style="float: left">
-        <div class="container1">
-            <div class="componet1">
-                <i id="f2" class="fa-duotone fa-award fa-6x"></i>
-                <span id="d1">India's #1</span>
-                <span id="d2">Largest Auto Seller</span>
-            </div>
-            <div class="componet1">
-                <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
-                <span id="d3">Service</span>
-                <span id="d4">10,000+ Service station</span>
-            </div>
-            <div class="componet1">
-                <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
-                <span id="d5">Car Sold</span>
-                <span id="d6">Every 5 minute</span>
-            </div>
-            <div class="componet1">
-                <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
-                <span id="d7">Compare</span>
-                <span id="d8">Decode the right car</span>
-            </div>
-        </div>
-        <div class="container2">
-            <div class="componet2">
-                <div class="m1">
-                    <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
-                    <div class="text1">
-                        <p>About us</p>
-                        <p>FAQs</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms & Conditions</p>
-                        <p>Corporate Policies</p>
-                        <p>Investors</p>
-                    </div>
-                </div>
-            </div>
-            <div class="componet3">
-                <div class="m2">
-                    <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
-                    <div class="text2">
-                        <p>1800 910 9111 (Toll-Free)</p>
-                        <p>support@carbazaar.com</p>
-                        <p>Dealer solutions</p>
-                        <p>Used Cars Business</p>
-                        <p>Contact Us</p>
-                        <p>Feedback</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container3">
-            <div class="componet4">
-                <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
-                <div class="foot2">Connect :</div>
-                <div class="foot3">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                    <i class="fa-brands fa-youtube fa-2xl"></i>
-                    <i class="fa-brands fa-twitter fa-2xl"></i>
-                    <i class="fa-brands fa-github fa-2xl"></i>
-                    <i class="fa-brands fa-facebook fa-2xl"></i>
-                    <i class="fa-brands fa-linkedin fa-2xl"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="../search.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-</body>
-
-</html>
+    </html>

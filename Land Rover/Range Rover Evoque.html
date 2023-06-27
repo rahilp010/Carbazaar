@@ -1,35 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Range Rover Evoque | CarBazaar</title>
-    <link rel="stylesheet" href="style5.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
-    <link rel="icon" href="logo.png" type="img/png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Range Rover Evoque | CarBazaar</title>
+        <link rel="stylesheet" href="style5.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+        <link rel="icon" href="logo.png" type="img/png">
+    </head>
 
-<body>
-    <div class="content">
-        <div class="I">
-            <img id="i1" src="../image/logo/CarBazaar-removebg-preview.png" alt="car bazaar">
-            <div class="searchbar">
-                <div class="logo2">CarBazaar</div>
-                <div class="wrapper">
-                    <div class="container90">
-                        <div class="search_wrap search_wrap_6">
-                            <div class="search_box">
-                                <input type="text" class="input" placeholder="Search Cars and Brands.......">
-                                <div class="btn">
-                                    <p>Search</p>
+    <body>
+        <div class="content">
+            <div class="I">
+                <img id="i1" src="../image/logo/CarBazaar-removebg-preview.png" alt="car bazaar">
+                <div class="searchbar">
+                    <div class="logo2">CarBazaar</div>
+                    <div class="wrapper">
+                        <div class="container90">
+                            <div class="search_wrap search_wrap_6">
+                                <div class="search_box">
+                                    <div class="searchlist" id="searchlist">
+                                        <div id="myUL">
+                                            <p><a href="../Maruti suzuki/suzuki.html">Maruti Suzuki</a></p>
+                                            <p><a href="../Mahindra/mahindra.html">Mahindra</a></p>
+                                            <p><a href="../Hyundai/hyundai.html">Hyundai</a></p>
+                                            <p><a href="../tata/tata.html">Tata</a></p>
+                                            <p><a href="../honda/honda.html">Honda</a></p>
+                                            <p><a href="../kia/kia.html">Kia</a></p>
+                                            <p><a href="../MG/mg.html">MG</a></p>
+                                            <p><a href="../toyota/toyota.html">Toyota</a></p>
+                                            <p><a href="../nissan/nissan.html">Nissan</a></p>
+                                            <p><a href="../renault/renault.html">Renault</a></p>
+                                            <p><a href="../skoda/skoda.html">Skoda</a></p>
+                                            <p><a href="../volkswagen/volkswagen.html">Volkswagen</a></p>
+                                            <p><a href="../Maruti suzuki/Maruti Swift.html">Maruti Swift</a></p>
+                                            <p><a href="../Maruti suzuki/ertiga.html">Maruti Ertiga</a></p>
+                                            <p><a href="../Maruti suzuki/Alto.html">Maruti Alto</a></p>
+                                            <p><a href="../Maruti suzuki/altok10.html">Maruti Alto K10</a></p>
+                                            <p><a href="../Maruti suzuki/celerio.html">Maruti Celerio</a></p>
+                                            <p><a href="../Maruti suzuki/ciaz.html">Maruti Ciaz</a></p>
+                                            <p><a href="../Maruti suzuki/dzire.html">Maruti Dzire</a></p>
+                                            <p><a href="../Maruti suzuki/eeco.html">Maruti EECO</a></p>
+                                            <p><a href="../Maruti suzuki/grandvitara.html">Maruti Grand Vitara</a></p>
+                                            <p><a href="../Maruti suzuki/ignis.html">Maruti Ignis</a></p>
+                                            <p><a href="../Maruti suzuki/Maruti Baleno.html">Maruti Baleno</a></p>
+                                            <p><a href="../Maruti suzuki/Maruti Brezza.html">Maruti Brezza</a></p>
+                                            <p><a href="../Maruti suzuki/spresso.html">Maruti Spresso</a></p>
+                                            <p><a href="../Maruti suzuki/wagonr.html">Maruti WegonR</a></p>
+                                            <p><a href="../Maruti suzuki/xl6.html">Maruti XL6</a></p>
+                                            <p><a href="../Mahindra/thar.html">Mahindra Thar</a></p>
+                                            <p><a href="../Mahindra/xuv700.html">Mahindra XUV700</a></p>
+                                            <p><a href="../Mahindra/xuv300.html">Mahindra XUV300</a></p>
+                                            <p><a href="../Mahindra/xuv400.html">Mahindra XUV400</a></p>
+                                            <p><a href="../Mahindra/bolero.html">Mahindra Bolero</a></p>
+                                            <p><a href="../Mahindra/boleroneo.html">Mahindra Bolero-Neo</a></p>
+                                            <p><a href="../Mahindra/kuv100nxt.html">Mahindra KUV100 NXT</a></p>
+                                            <p><a href="../Mahindra/scorpioclassic.html">Mahindra Scorpio-Classic</a></p>
+                                            <p><a href="../Mahindra/scorpion.html">Mahindra Scorpio-N</a></p>
+                                            <p><a href="../Mahindra/marrazo.html">Mahindra Marrazo</a></p>
+                                            <p><a href="../MG/hector.html">MG Hector</a></p>
+                                            <p><a href="../MG/astor.html">MG Astor</a></p>
+                                            <p><a href="../MG/gloster.html">MG Gloster</a></p>
+                                            <p><a href="../MG/zsev.html">MG ZS-EV</a></p>
+                                            <p><a href="../Hyundai/i20.html">Hyundai i20</a></p>
+                                            <p><a href="../Hyundai/kona.html">Hyundai kona</a></p>
+                                            <p><a href="../Hyundai/alcazar.html">Hyundai Alcazar</a></p>
+                                            <p><a href="../Hyundai/aura.html">Hyundai Aura</a></p>
+                                            <p><a href="../Hyundai/creta.html">Hyundai Creta</a></p>
+                                            <p><a href="../Hyundai/grandi10.html">Hyundai Grand i10</a></p>
+                                            <p><a href="../Hyundai/ioniq5.html">Hyundai Ioniq5</a></p>
+                                            <p><a href="../Hyundai/tucson.html">Hyundai Tucson</a></p>
+                                            <p><a href="../Hyundai/venue.html">Hyundai Venue</a></p>
+                                            <p><a href="../kia/sonet.html">Kia Sonet</a></p>
+                                            <p><a href="../kia/carens.html">Kia Carens</a></p>
+                                            <p><a href="../kia/carnival.html">Kia Carnival</a></p>
+                                            <p><a href="../kia/ev6.html">Kia EV6</a></p>
+                                            <p><a href="../kia/seltos.html">Kia Seltos</a></p>
+                                            <p><a href="../tata/harrier.html">Tata Harrier</a></p>
+                                            <p><a href="../tata/nexon.html">Tata Nexon</a></p>
+                                            <p><a href="../tata/nexon ev max.html">Tata Nexon EV-Max</a></p>
+                                            <p><a href="../tata/altroz.html">Tata Altroz</a></p>
+                                            <p><a href="../tata/punch.html">Tata Punch</a></p>
+                                            <p><a href="../tata/safari.html">Tata Safari</a></p>
+                                            <p><a href="../tata/tiago.html">Tata Tiago</a></p>
+                                            <p><a href="../tata/tigor.html">Tata Tigor</a></p>
+                                            <p><a href="../tata/tigorev.html">Tata Tigor-EV</a></p>
+                                            <p><a href="../tata/tiago ev.html">Tata Tiago-EV</a></p>
+                                            <p><a href="../honda/amaze.html">Honda Amaze</a></p>
+                                            <p><a href="../honda/city.html">Honda City</a></p>
+                                            <p><a href="../honda/jazz.html">Honda Jazz</a></p>
+                                            <p><a href="../honda/wrv.html">Honda WR-V</a></p>
+                                            <p><a href="../toyota/fortuner.html">Toyota Fortuner</a></p>
+                                            <p><a href="../toyota/vellfire.html">Toyota Vellfire</a></p>
+                                            <p><a href="../toyota/camry.html">Toyota Camry</a></p>
+                                            <p><a href="../toyota/glanza.html">Toyota Glanza</a></p>
+                                            <p><a href="../toyota/urbancruiser.html">Toyota Toyota Urban Cruiser Hyryder</a></p>
+                                            <p><a href="../toyota/Hycross.html">Toyota Innova Hycross</a></p>
+                                            <p><a href="../nissan/kicks.html">Nissan Kicks</a></p>
+                                            <p><a href="../nissan/magnite.html">Nissan Magnite</a></p>
+                                            <p><a href="../skoda/kodiaq.html">Skoda Kodiaq</a></p>
+                                            <p><a href="../skoda/kushaq.html">Skoda Kushaq</a></p>
+                                            <p><a href="../skoda/octavia.html">Skoda Octavia</a></p>
+                                            <p><a href="../skoda/slavia.html">Skoda Slavia</a></p>
+                                            <p><a href="../skoda/superb.html">Skoda Superb</a></p>
+                                            <p><a href="../volkswagen/taigun.html">Volkswagen Taigun</a></p>
+                                            <p><a href="../volkswagen/tiguan.html">Volkswagen Tiguan</a></p>
+                                            <p><a href="../volkswagen/virtus.html">Volkswagen Virtus</a></p>
+                                            <p><a href="../renault/triber.html">Renault Triber</a></p>
+                                            <p><a href="../renault/kiger.html">Renault Kiger </a></p>
+                                            <p><a href="../renault/kwid.html">Renault Kwid</a></p>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="input" id="myInput" placeholder="Search Cars and Brands......." onkeyup="Searchup()" autocomplete="off">
+                                    <a href="">
+                                        <lord-icon id="icon9" src="https://cdn.lordicon.com/mkxtghuq.json" trigger="hover" colors="outline:#ffffff,primary:#66a1ee,secondary:#ebe6ef">
+                                        </lord-icon>
+                                    </a>
+                                    <div class="btn">
+                                        <p>Search</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <select name="lan" id="lan" class="lan">
+                    <select name="lan" id="lan" class="lan">
                     <option value="English">English</option>
                     <option value="Hindi">हिन्दी </option>
                     <option value="Gujrati">ગુજરાતી</option>
@@ -38,79 +137,65 @@
                     <option value="Malayalam">മലയാളം</option>
                     <option value="Kannada">ಕನ್ನಡ</option>
                 </select>
-                <div class="ico1">
-                    <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
+                    <div class="ico1">
+                        <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
+                    </div>
+                    <a href="../login/logout.php" class="sign">LogOut</a>
                 </div>
-                <a href="../login/login.html" class="sign">Login / Register</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="a1"><a href="../web1.html">Home</a></li>
+                    <li class="a1">
+                        <a href="#Specifications">Specifications</a>
+                    </li>
+                    <li>
+                        <a href="#Variants">Variants</a>
+                    </li>
+                    <li><a href="#Mileage">Mileage</a></li>
+                    <li><a href="#">Service Booking
+                    <i id="angle" class="fa-solid fa-angle-down"></i>
+                </a>
+                        <div class="submenu" style="margin-left:10px;">
+                            <ul style="background-color: transparent;">
+                                <li><a href="../appointment.php">Book my sloat</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="../review.php">Review</a></li>
+                </ul>
             </div>
         </div>
-        <div class="menu">
-            <ul>
-                <li class="a1"><a href="../web1.html">Home</a></li>
-                <li class="a1">
-                    <a href="#Specifications">Specifications</a>
-                </li>
-                <li>
-                    <a href="#Variants">Variants</a>
-                </li>
-                <li><a href="#Mileage">Mileage</a></li>
-                <li><a href="#">Compare Cars</a></li>
-                <li><a href="#">Service Booking
-                        <i id="angle" class="fa-solid fa-angle-down"></i>
-                    </a>
-                    <div class="submenu" style="margin-left:10px;">
-                        <ul style="background-color: transparent;">
-                            <li><a href="#">Book my sloat</a> </li>
-                            <li><a href="#">Full Service</a> </li>
-                            <li><a href="">AC Service & Repair</a></li>
-                            <li><a href="">Painting & PPF</a></li>
-                            <li><a href="">Tyres & Wheels</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">More
-                        <i id="angle" class="fa-solid fa-angle-down"></i>
-                    </a>
-                    <div class="submenu">
-                        <ul>
-                            <li><a href="">Car loan</a></li>
-                            <li><a href="">Ask a Question</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <br>
-    <div class="container1">
-        <div class="component1">
-            <img src="../image/cars/range rover .jpeg" alt="Range Rover">
-            <div class="desc">Range Rover Evoque
-                <span class="i1" style="margin-left: 38%;">
+        <br>
+        <div class="container1">
+            <div class="component1">
+                <img src="../image/cars/range rover.jpg" alt="Range Rover">
+                <div class="desc">Range Rover Evoque
+                    <span class="i1" style="margin-left: 38%;">
                     <!-- <i class="fa-duotone fa-heart "></i> -->
                     <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" trigger="hover"></lord-icon>
                 </span>
-                <span class="i2" style="margin-left: 47%;">
+                    <span class="i2" style="margin-left: 47%;">
                     <!-- <i class="fa-regular fa-share-nodes"></i> -->
                     <lord-icon src="https://cdn.lordicon.com/hlywgxmy.json" trigger="hover"></lord-icon>
                 </span>
-            </div>
-            <div class="desc1">
-                <span class="star">
+                </div>
+                <div class="desc1">
+                    <span class="star">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star-half"></ion-icon>
                     <span class="rating">120 reviews</span>
-                </span>
-            </div>
-            <div class="desc2">
-                ₹ 72.11 Lakh* Estimated
-                <span>Get On Road Price</span>
-            </div>
-            <div class="desc3">*Ex-showroom Price in
-                <span>
+                    </span>
+                </div>
+                <div class="desc2">
+                    ₹ 72.11 Lakh* Estimated
+                    <span>Get On Road Price</span>
+                </div>
+                <div class="desc3">*Ex-showroom Price in
+                    <span>
                     <select id="op1">
                         <option value="Surat">Surat</option>
                         <option value="Ahemdabad">Ahemdabad</option>
@@ -121,251 +206,251 @@
                         <option value="Hyderabad">Hyderabad</option>
                     </select>
                 </span>
-            </div>
-            <div class="b1">
-                <input type="button" value="Book Appoinments" onclick="payment()">
-            </div>
-            <div id="op2">
-                <i class="fa-thin fa-tags fa-xl"></i>
-                <span class="s1">Don't miss out on the best offers for this month</span>
-            </div>
+                </div>
+                <div class="b1">
+                    <input type="button" value="Book Appoinments" onclick="payment()">
+                </div>
+                <div id="op2">
+                    <i class="fa-thin fa-tags fa-xl"></i>
+                    <span class="s1">Don't miss out on the best offers for this month</span>
+                </div>
 
-        </div>
-    </div>
-    <div class="container2">
-        <div class="c1" id="Specifications">
-            <h2>Key Specifications of Range Rover</h2>
-            <div class="r1">
-                <div class="k1">
-                    <i class="fa-thin fa-engine fa-3x" style="font-weight: 300;"></i>
-                    <div class="desk1">Engine</div>
-                    <div class="desk2" style="margin-left: -45px;">1997 cc</div>
-                </div>
-                <div class="k2" style="margin-left: 12%;">
-                    <i class="fa-light fa-bolt fa-3x"></i>
-                    <div class="desk1">BHP</div>
-                    <div class="desk2" style="margin-left: -70px">345.98 - 2996.0 Bhp</div>
-                </div>
-                <div class="k3" style="margin-left: 11%;">
-                    <i class="fa-thin fa-gas-pump fa-3x" style="font-weight: 300;"></i>
-                    <div class="desk1">Fuel</div>
-                    <div class="desk2" style="margin-left: -10px">Diesel/Petrol</div>
-                </div>
-                <div class="k4" style="margin-left: 14%;">
-                    <i class="fa-light fa-gauge-simple-high fa-3x"></i>
-                    <div class="desk1">Mileage</div>
-                    <div class="desk2" style="margin-left: -25px;">14.01 kmpl</div>
-                </div>
-                <div class="k5" style="margin-left: 14%;">
-                    <i class="fa-brands fa-fulcrum fa-3x"></i>
-                    <div class="desk1">Transmission</div>
-                    <div class="desk2" style="margin-left: -30px;">Automatic</div>
-                </div>
-                <div class="key1">
-                    <table>
-                        <tr>
-                            <td style="text-align: left;">ARAI Mileage</td>
-                            <td style="text-align: right;">10.9 kmpl</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Fuel Type</td>
-                            <td style="text-align: right;">Petrol/Diesel</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">No. of cylinder</td>
-                            <td style="text-align: right;">8</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Max Torque (nm@rpm)</td>
-                            <td style="text-align: right;">201 to 247 bhp & 365 Nm</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">TransmissionType</td>
-                            <td style="text-align: right;">Automatic</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Fuel Tank Capacity</td>
-                            <td style="text-align: right;">50.0</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="key2">
-                    <table>
-                        <tr>
-                            <td style="text-align: left;">City Mileage</td>
-                            <td style="text-align: right;">14.0 kmpl</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Engine Displacement(cc)</td>
-                            <td style="text-align: right;">1330</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Max Power (bhp@rpm)</td>
-                            <td style="text-align: right;">153.87bhp@5500rpm</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Seating Capacity</td>
-                            <td style="text-align: right;">5</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;"> Boot Space (Litres)</td>
-                            <td style="text-align: right;">400</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: left;">Body Type</td>
-                            <td style="text-align: right;">SUV</td>
-                        </tr>
-                    </table>
-                </div>
             </div>
         </div>
-        <div class="c2">
-            <div class="emi">EMI Starts</div>
-            <span class="emi0"><ion-icon name="cash-outline"></ion-icon></span>
-            <div class="emi1"> ₹ 13,913 /Month</div>
-            <div class="emi2">Interest calculated at 9.8% for 60 months</div>
-            <div class="emi3"><input type="button" value="View Finance Offers"></div>
+        <div class="container2">
+            <div class="c1" id="Specifications">
+                <h2>Key Specifications of Range Rover</h2>
+                <div class="r1">
+                    <div class="k1">
+                        <i class="fa-thin fa-engine fa-3x" style="font-weight: 300;"></i>
+                        <div class="desk1">Engine</div>
+                        <div class="desk2" style="margin-left: 0px;">1997 cc</div>
+                    </div>
+                    <div class="k2" style="margin-left: 12%;">
+                        <i class="fa-light fa-bolt fa-3x"></i>
+                        <div class="desk1">BHP</div>
+                        <div class="desk2" style="margin-left: -70px">345.98 - 2996.0 Bhp</div>
+                    </div>
+                    <div class="k3" style="margin-left: 11%;">
+                        <i class="fa-thin fa-gas-pump fa-3x" style="font-weight: 300;"></i>
+                        <div class="desk1">Fuel</div>
+                        <div class="desk2" style="margin-left: -10px">Diesel/Petrol</div>
+                    </div>
+                    <div class="k4" style="margin-left: 14%;">
+                        <i class="fa-light fa-gauge-simple-high fa-3x"></i>
+                        <div class="desk1">Mileage</div>
+                        <div class="desk2" style="margin-left: -25px;">14.01 kmpl</div>
+                    </div>
+                    <div class="k5" style="margin-left: 14%;">
+                        <i class="fa-brands fa-fulcrum fa-3x"></i>
+                        <div class="desk1">Transmission</div>
+                        <div class="desk2" style="margin-left: -30px;">Automatic</div>
+                    </div>
+                    <div class="key1">
+                        <table>
+                            <tr>
+                                <td style="text-align: left;">ARAI Mileage</td>
+                                <td style="text-align: right;">10.9 kmpl</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Fuel Type</td>
+                                <td style="text-align: right;">Petrol/Diesel</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">No. of cylinder</td>
+                                <td style="text-align: right;">8</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Max Torque (nm@rpm)</td>
+                                <td style="text-align: right;">201 to 247 bhp & 365 Nm</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">TransmissionType</td>
+                                <td style="text-align: right;">Automatic</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Fuel Tank Capacity</td>
+                                <td style="text-align: right;">50.0</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="key2">
+                        <table>
+                            <tr>
+                                <td style="text-align: left;">City Mileage</td>
+                                <td style="text-align: right;">14.0 kmpl</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Engine Displacement(cc)</td>
+                                <td style="text-align: right;">1330</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Max Power (bhp@rpm)</td>
+                                <td style="text-align: right;">153.87bhp@5500rpm</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Seating Capacity</td>
+                                <td style="text-align: right;">5</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;"> Boot Space (Litres)</td>
+                                <td style="text-align: right;">400</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Body Type</td>
+                                <td style="text-align: right;">SUV</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="emi">EMI Starts</div>
+                <span class="emi0"><ion-icon name="cash-outline"></ion-icon></span>
+                <div class="emi1"> ₹ 13,913 /Month</div>
+                <div class="emi2">Interest calculated at 9.8% for 60 months</div>
+                <div class="emi3"><input type="button" value="View Finance Offers"></div>
 
-        </div>
-        <div class="c3" id="Variants">
-            <div class="componetq1">
-                <h2>Range Rover Evoque price list (Variants)</h2>
-                <div class="text11">The Land Rover Range Rover Evoque (generally known simply as the Range Rover Evoque) is a series of subcompact luxury crossover SUVs developed and produced by Jaguar Land Rover, a British car manufacturer, under their Land Rover marque.
+            </div>
+            <div class="c3" id="Variants">
+                <div class="componetq1">
+                    <h2>Range Rover Evoque price list (Variants)</h2>
+                    <div class="text11">The Land Rover Range Rover Evoque (generally known simply as the Range Rover Evoque) is a series of subcompact luxury crossover SUVs developed and produced by Jaguar Land Rover, a British car manufacturer, under their Land Rover marque.
+                    </div>
                 </div>
-            </div>
-            <div class="m1">
-                <span id="j1">Variant</span>
-                <span id="j2"> Ex-Showroom Price</span>
-            </div>
-            <div class="detail1">
-                <div class="d11" style="position:relative; left:-235px">2.0 R-Dynamic SE Diesel</div>
-                <div class="d12">1997 cc, Automatic, Diesel</div>
-                <div class="d13">More then 2 months waiting</div>
-                <div class="d14">₹ 72.09 Lakh*</div>
-                <div class="d15">Get On Road Price</div>
-            </div>
-            <div class="detail1">
-                <div class="d11">Range Rover Evoque 2.0 R-Dynamic SE</div>
-                <div class="d12">1997 cc, Automatic, Petrol</div>
-                <div class="d13">More then 2 months waiting</div>
-                <div class="d14">₹ 72.76 Lakh*</div>
-                <div class="d15">Get On Road Price</div>
-            </div>
-        </div>
-    </div>
-    <div class="c4" style="height: 418px;">
-        <div class="txt2">Trending Range Rover Cars</div>
-        <div class="con2">
-            <div class="box2">
-                <a href="../Land Rover/Velar.html"><img src="../image/cars/Velar.jpg" alt="Velar" /> Velar</a>
-            </div>
-            <div class="box2">
-                <a href="../Land Rover/Defender.html"><img src="../image/cars/Defender.jpg" alt="defender" />Defender</a>
-            </div>
-            <div class="foot23">
-                <a href="../nissan/Range Rover.html">
-                    <div class="foot24">View All Range Rover Cars</div>
-                </a>
-            </div>
-
-        </div>
-    </div>
-    <div id="Mileage" class="c5" style="height: 680px;">
-        <div class="componetq1">
-            <h2>Range Rover Evoque Mileage</h2>
-            <div class="text11">The claimed ARAI mileage: Range Rover Evoque petrol is 10.04 kmpl.The claimed ARAI mileage for the automatic variants: Range Rover Evoque is 14.04 kmpl.
-            </div>
-        </div>
-        <table>
-            <tr>
-                <th>Fuel Type</th>
-                <th>Transmission</th>
-                <th>ARAI Mileage</th>
-            </tr>
-            <tr>
-                <td>Petrol</td>
-                <td>Manual</td>
-                <td>20 kmpl</td>
-            </tr>
-            <tr>
-                <td>Petrol</td>
-                <td>Automatic</td>
-                <td>20 kmpl</td>
-            </tr>
-        </table>
-    </div>
-    </div>
-    <div style="float: left">
-        <div class="container19">
-            <div class="componet18">
-                <i id="f2" class="fa-duotone fa-award fa-6x"></i>
-                <span id="d1">India's #1</span>
-                <span id="d2">Largest Auto Seller</span>
-            </div>
-            <div class="componet18">
-                <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
-                <span id="d3">Service</span>
-                <span id="d4">10,000+ Service station</span>
-            </div>
-            <div class="componet18">
-                <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
-                <span id="d5">Car Sold</span>
-                <span id="d6">Every 5 minute</span>
-            </div>
-            <div class="componet18">
-                <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
-                <span id="d7">Compare</span>
-                <span id="d8">Decode the right car</span>
-            </div>
-        </div>
-        <div class="container29">
-            <div class="componet28">
                 <div class="m1">
-                    <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
-                    <div class="text1">
-                        <p>About us</p>
-                        <p>FAQs</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms & Conditions</p>
-                        <p>Corporate Policies</p>
-                        <p>Investors</p>
+                    <span id="j1">Variant</span>
+                    <span id="j2"> Ex-Showroom Price</span>
+                </div>
+                <div class="detail1">
+                    <div class="d11" style="position:relative; left:-235px">2.0 R-Dynamic SE Diesel</div>
+                    <div class="d12">1997 cc, Automatic, Diesel</div>
+                    <div class="d13">More then 2 months waiting</div>
+                    <div class="d14">₹ 72.09 Lakh*</div>
+                    <div class="d15">Get On Road Price</div>
+                </div>
+                <div class="detail1">
+                    <div class="d11">Range Rover Evoque 2.0 R-Dynamic SE</div>
+                    <div class="d12">1997 cc, Automatic, Petrol</div>
+                    <div class="d13">More then 2 months waiting</div>
+                    <div class="d14">₹ 72.76 Lakh*</div>
+                    <div class="d15">Get On Road Price</div>
+                </div>
+            </div>
+        </div>
+        <div class="c4" style="height: 418px;">
+            <div class="txt2">Trending Range Rover Cars</div>
+            <div class="con2">
+                <div class="box2">
+                    <a href="../Land Rover/Velar.html"><img src="../image/cars/Velar.jpg" alt="Velar" /> Velar</a>
+                </div>
+                <div class="box2">
+                    <a href="../Land Rover/Defender.html"><img src="../image/cars/Defender.jpg" alt="defender" />Defender</a>
+                </div>
+                <div class="foot23" style="position: relative; top:60px;left:-30px">
+                    <a href="../Land Rover/Range Rover Evoque.html">
+                        <div class="foot24">View All Range Rover Cars</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div id="Mileage" class="c5" style="height: 680px;">
+            <div class="componetq1">
+                <h2>Range Rover Evoque Mileage</h2>
+                <div class="text11">The claimed ARAI mileage: Range Rover Evoque petrol is 10.04 kmpl.The claimed ARAI mileage for the automatic variants: Range Rover Evoque is 14.04 kmpl.
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>Fuel Type</th>
+                    <th>Transmission</th>
+                    <th>ARAI Mileage</th>
+                </tr>
+                <tr>
+                    <td>Petrol</td>
+                    <td>Manual</td>
+                    <td>20 kmpl</td>
+                </tr>
+                <tr>
+                    <td>Petrol</td>
+                    <td>Automatic</td>
+                    <td>20 kmpl</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div style="float: left">
+            <div class="container19">
+                <div class="componet18">
+                    <i id="f2" class="fa-duotone fa-award fa-6x"></i>
+                    <span id="d1">India's #1</span>
+                    <span id="d2">Largest Auto Seller</span>
+                </div>
+                <div class="componet18">
+                    <i id="f3" class="fa-duotone fa-car-wrench fa-6x"></i>
+                    <span id="d3">Service</span>
+                    <span id="d4">10,000+ Service station</span>
+                </div>
+                <div class="componet18">
+                    <i id="f4" class="fa-duotone fa-tags fa-6x"></i>
+                    <span id="d5">Car Sold</span>
+                    <span id="d6">Every 5 minute</span>
+                </div>
+                <div class="componet18">
+                    <i id="f5" class="fa-duotone fa-cars fa-6x"></i>
+                    <span id="d7">Compare</span>
+                    <span id="d8">Decode the right car</span>
+                </div>
+            </div>
+            <div class="container29">
+                <div class="componet28">
+                    <div class="m1">
+                        <p style="font-weight: bold; font-size: 20px">OVERVIEW</p>
+                        <div class="text1">
+                            <p>About us</p>
+                            <p>FAQs</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms & Conditions</p>
+                            <p>Corporate Policies</p>
+                            <p>Investors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="componet38">
+                    <div class="m2">
+                        <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
+                        <div class="text2">
+                            <p>1800 910 9111 (Toll-Free)</p>
+                            <p>support@carbazaar.com</p>
+                            <p>Dealer solutions</p>
+                            <p>Used Cars Business</p>
+                            <p>Contact Us</p>
+                            <p>Feedback</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="componet38">
-                <div class="m2">
-                    <p style="font-weight: bold; font-size: 20px">CONNECT WITH US</p>
-                    <div class="text2">
-                        <p>1800 910 9111 (Toll-Free)</p>
-                        <p>support@carbazaar.com</p>
-                        <p>Dealer solutions</p>
-                        <p>Used Cars Business</p>
-                        <p>Contact Us</p>
-                        <p>Feedback</p>
+            <div class="container39">
+                <div class="componet48">
+                    <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
+                    <div class="foot2">Connect :</div>
+                    <div class="foot3">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                        <i class="fa-brands fa-youtube fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container39">
-            <div class="componet48">
-                <div class="foot1">© 2023 Six Champs Pvt. Ltd.</div>
-                <div class="foot2">Connect :</div>
-                <div class="foot3">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                    <i class="fa-brands fa-youtube fa-2xl"></i>
-                    <i class="fa-brands fa-twitter fa-2xl"></i>
-                    <i class="fa-brands fa-github fa-2xl"></i>
-                    <i class="fa-brands fa-facebook fa-2xl"></i>
-                    <i class="fa-brands fa-linkedin fa-2xl"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+        <script src="search.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    </body>
 
-</body>
-
-</html>
+    </html>

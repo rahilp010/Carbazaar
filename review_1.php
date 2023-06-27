@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $conn =mysqli_connect("localhost","root","")or die ("error");
 $db =mysqli_select_db($conn,"music_login"); 
 $query = "SELECT * FROM review";
@@ -9,8 +9,7 @@ mysqli_close($conn);
 ?>
     <!-- echo $result['UserName'];
     echo $result['review']; -->
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,6 +41,15 @@ mysqli_close($conn);
 }
 </style>
 </head>
+<?php
+$email=$_SESSION['email'];
+if($email==true){
+
+}
+else{
+    header('location:login/login.html');
+}
+?>
 <body>
     <div class="container">
         <h1>Review</h1>

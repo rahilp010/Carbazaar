@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 280px;
+    scroll-padding-top: 190px;
 }
 
 body {
@@ -507,7 +507,7 @@ body {
     box-shadow: 0px 10px 15px #ccc;
     height: 900px;
     margin: 40px 0px 0px 30px;
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
 }
 
@@ -516,7 +516,7 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #ccc;
     margin: -590px 0px 0px 40px;
-    height: 800px;
+    height: 740px;
     width: 25%;
 }
 
@@ -544,7 +544,7 @@ body {
 .k2 {
     position: relative;
     top: 10%;
-    margin-left: 9%;
+    margin-left: 14%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -552,7 +552,7 @@ body {
 .k3 {
     position: relative;
     top: 10%;
-    margin-left: 11%;
+    margin-left: 15%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -560,7 +560,7 @@ body {
 .k4 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 16%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -568,7 +568,7 @@ body {
 .k5 {
     position: relative;
     top: 10%;
-    margin-left: 12%;
+    margin-left: 17%;
     color: rgb(95, 95, 95);
     float: left;
 }
@@ -667,21 +667,21 @@ td {
 
 #j1 {
     position: relative;
-    top: 20px;
+    top: 40px;
     left: 60px;
     font-size: 20px;
 }
 
 #j2 {
     position: relative;
-    top: 20px;
+    top: 40px;
     left: 560px;
     font-size: 20px;
 }
 
 .detail1 {
     position: relative;
-    top: 80px;
+    top: 100px;
     left: 60px;
     font-size: 17px;
 }
@@ -712,7 +712,7 @@ td {
 
 .d15 {
     position: relative;
-    top: -80px;
+    top: -90px;
     left: 555px;
     font-size: 17px;
     font-weight: bold;
@@ -775,7 +775,7 @@ td {
     text-align: center;
     width: 1200px;
     font-size: 23px;
-    margin: 30px 30px 30px 55px;
+    margin: 60px 30px 30px 55px;
 }
 
 
@@ -958,7 +958,9 @@ td {
 }
 
 .foot23 {
-    margin: 5px 0px 0px -30px;
+    position: relative;
+    bottom: -209px;
+    left: -240px;
     border: 1px solid #ccc;
     width: 469px;
     height: 63px;

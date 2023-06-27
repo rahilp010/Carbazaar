@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 280px;
+    scroll-padding-top: 190px;
 }
 
 body {
@@ -268,15 +268,17 @@ body {
 
 .sign {
     position: absolute;
-    right: -7%;
+    margin-left: 1270px;
     width: 10%;
     top: 28px;
+    left: 100px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 13px;
     padding: 13px;
     background: #3d71f3;
     color: white;
+    left: 4%;
 }
 
 .sign:hover {
@@ -514,7 +516,7 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #ccc;
     margin: -590px 0px 0px 40px;
-    height: 1700px;
+    height: 1640px;
     width: 25%;
 }
 
@@ -522,7 +524,7 @@ body {
     float: left;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px #ccc;
-    margin: -100px 0px 0px 30px;
+    margin: 40px 0px 0px 30px;
     width: 70%;
     height: 590px;
 }
@@ -702,7 +704,7 @@ td {
 
 .d14 {
     position: relative;
-    top: -105px;
+    top: -100px;
     left: 555px;
     font-size: 25px;
     font-weight: 600;
@@ -773,7 +775,7 @@ td {
     text-align: center;
     width: 1200px;
     font-size: 23px;
-    margin: 30px 30px 30px 55px;
+    margin: 60px 30px 30px 55px;
 }
 
 
@@ -957,8 +959,8 @@ td {
 
 .foot23 {
     position: relative;
+    bottom: -209px;
     left: -240px;
-    top: 220px;
     border: 1px solid #ccc;
     width: 469px;
     height: 63px;

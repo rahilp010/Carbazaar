@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^music_home$ music_home.php
+
+AddType application/x-httpd-php .htm .html

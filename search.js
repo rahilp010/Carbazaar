@@ -26,3 +26,7 @@ document.getElementById("icon9").onclick = function() {
 function payment() {
     window.location.assign('http://localhost/Carbazaar/appointment.php');
 }
+
+function notify() {
+    alert("Notify You When Car is Launched");
+}

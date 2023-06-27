@@ -1,42 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <link rel="icon" href="logo.png" type="img/png">
-    <link rel="stylesheet" href="style2.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-in</title>
+        <link rel="icon" href="logo.png" type="img/png">
+        <link rel="stylesheet" href="style2.css">
+    </head>
 
-<body>
-    <section>
-        <div class="fbox">
-            <div class="fvalue">
-                <form action="login1.php" method="post">
-                    <h2>Log-in</h2>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" name="email" id="email" required>
-                        <label for="">Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" name="password" id="password" required>
-                        <label for="">Password</label>
-                    </div>
-                    <input id="button" type="submit" value="Log-in">
-                    <div class="register">
-                        <p>Don't Have a Account <a href="Register.html" style="margin-left: 10px;">Register</a></p>
-                    </div>
-                    <div class="home"><a href="/web1.html">Home</a></div>
-                </form>
+    <body>
+        <section>
+            <div class="fbox">
+                <div class="fvalue">
+                    <form action="login1.php" method="post">
+                        <h2>Log-in</h2>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" name="email" id="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" name="password" id="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <input id="button" type="submit" value="Log-in">br
+                        <div class="register"><br>
+                            <p>Don't Have a Account <a href="Register.html" style="margin-left: 10px;">Register</a></p><br>
+                            <p>Admin Panel <a href="admin.html" style="margin-left: 10px;">Admin</a></p>
+                        </div><br>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
 
-</html>
+    </html>

@@ -1,56 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register | CarBazaar</title>
-    <link rel="stylesheet" href="style2_1.css">
-    <link rel="icon" href="logo.png" type="img/png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register | CarBazaar</title>
+        <link rel="stylesheet" href="style2_1.css">
+        <link rel="icon" href="logo.png" type="img/png">
+    </head>
 
-<body>
-    <section>
-        <div class="fbox">
-            <div class="fvalue">
-                <form action="register.php" method="post">
-                    <h2>Register Your Self</h2>
-                    <div class="inputbox">
-                        <ion-icon name="people-circle-outline"></ion-icon>
-                        <input type="text" name="uname" id="uname" required>
-                        <label for="">UserName</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="call-outline"></ion-icon>
-                        <input type="text" name="phone" id="phone" required maxlength="10">
-                        <label for="">PhoneNo</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" name="email" id="email" required>
-                        <label for="">Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" name="password" id="password" required>
-                        <label for="">Password</label>
-                    </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox" name="remember_me" id="remember_me">Remember Me</label>
-                        <a href="#" style="margin-left: 10px;">Forget Password</a>
-                    </div>
-                    <input id="button" type="submit" value="Register">
-                    <div class="register">
-                        <p>Have a Account <a href="login.html" style="margin-left: 10px;">Login</a></p>
-                    </div>
-                    <div class="home"><a href="/web1.html">Home</a></div>
-                </form>
+    <body>
+        <section>
+            <div class="fbox">
+                <div class="fvalue">
+                    <form action="register.php" method="post">
+                        <h2>Register Your Self</h2>
+                        <div class="inputbox">
+                            <ion-icon name="people-circle-outline"></ion-icon>
+                            <input type="text" name="uname" id="uname" required>
+                            <label for="">UserName</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <input type="text" name="phone" id="phone" required pattern="[0-9]{10}" maxlength="10">
+                            <label for="">PhoneNo</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" name="email" id="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" name="password" id="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <input id="button" type="submit" value="Register">
+                        <div class="register">
+                            <p>Have a Account <a href="login.html" style="margin-left: 10px;">Login</a></p>
+                        </div><br>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
 
-</html>
+    </html>

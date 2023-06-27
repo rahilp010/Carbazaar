@@ -1,4 +1,5 @@
 <?php
+session_start();
 $conn= new mysqli('localhost','root','','carbazaar');
 $db =mysqli_select_db($conn,"carbazaar"); 
 $query = "SELECT * FROM review";
@@ -18,7 +19,15 @@ mysqli_close($conn);
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
     <link rel="icon" href="logo.png" type="img/png">
 </head>
+<?php
+$email=$_SESSION['email'];
+if($email==true){
 
+}
+else{
+    header('location:login/login.html');
+}
+?>
 <body>
     <div class="content">
         <div class="I">
@@ -145,7 +154,7 @@ mysqli_close($conn);
                 <div class="ico1">
                     <lord-icon src="https://cdn.lordicon.com/unvvkseg.json" trigger="hover" colors="primary:#ffffff,secondary:#4030e8"></lord-icon>
                 </div>
-                <a href="login/login.html" class="sign">Login / Register</a>
+                <a href="login/login.html" class="sign">LogOut</a>
             </div>
         </div>
         <div class="menu">
@@ -155,47 +164,58 @@ mysqli_close($conn);
                     <a href="#">New Cars <i id="angle" class="fa-solid fa-angle-down"></i></a>
                     <div class="submenu" style="margin-left: 30px">
                         <ul style="background-color: transparent">
-                            <li><a href="">Popular Brands</a></li>
-                            <li><a href="">Latest Cars</a></li>
-                            <li><a href="">Most Search Cars</a></li>
-                            <li><a href="">Upcoming Cars</a></li>
-                            <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
-                                <div class="submenu2">
-                                    <ul>
-                                        <li><a href="hatchback.html">Hatchback</a></li>
-                                        <li><a href="sedan.html">Sedan</a></li>
-                                        <li><a href="muv.html">MUV</a></li>
-                                        <li><a href="suv.html">SUV</a></li>
-                                        <li><a href="hybrid.html">Hybrid</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Sell Cars <i id="angle" class="fa-solid fa-angle-down"></i></a>
-                    <div class="submenu" style="margin-left: 30px">
-                        <ul style="background-color: transparent">
-                            <li><a href="#">Sell Car in your City</a></li>
-                            <li><a href="#">Used Cars</a></li>
-                            <li><a href="">Sell car by Brands</a></li>
-                            <li><a href="">FAQS </a></li>
+                        <li class="ho1"><a href="http://localhost/Carbazaar/web1.html#popularbrands">Popular Brands <i class="fa-solid fa-angle-right" style="margin-left: 100px; position:absolute;"></i></a>
+                                    <div class="submenu2">
+                                        <ul>
+                                            <li><a href="Maruti suzuki/suzuki.html">Maruti Suzuki</a></li>
+                                            <li><a href="Mahindra/mahindra.html">Mahindra</a></li>
+                                            <li><a href="hyundai/hyundai.html">Hyundai</a></li>
+                                            <li><a href="tata/tata.html">Tata</a></li>
+                                            <li><a href="kia/kia.html">Kia</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+    
+                            <li><a href="http://localhost/Carbazaar/web1.html#latest">Latest Cars</a></li>
+                            <li><a href="http://localhost/Carbazaar/web1.html#most search">Most Search Cars</a></li>
+                            <li><a href="http://localhost/Carbazaar/web1.html#upcoming">Upcoming Cars</a></li>
+                                <li class="ho1"><a href="">By Bodytype <i class="fa-solid fa-angle-right" style="margin-left: 120px;"></i></a>
+                                    <div class="submenu2">
+                                        <ul>
+                                            <li><a href="hatchback.html">Hatchback</a></li>
+                                            <li><a href="sedan.html">Sedan</a></li>
+                                            <li><a href="muv.html">MUV</a></li>
+                                            <li><a href="suv.html">SUV</a></li>
+                                            <li><a href="hybrid.html">Hybrid</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="sellcars/sell.html">Sell Cars
+                        <i id="angle" class="fa-solid fa-angle-down"></i></a>
+                        <div class="submenu" style="margin-left: 30px;">
+                            <ul style="background-color: transparent;">
+                            <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#inspection">Car Inspection</a> </li>
+                            <li><a href="used/used.html">Used Cars</a> </li>
+                            <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#bybrands">Sell car by Brands</a></li>
+                            <li><a href="http://localhost/Carbazaar/Sellcars/sell.html#FAQS">FAQS </a></li>
+
                         </ul>
                     </div>
                 </li>
                 <li><a href="compare cars/compare.html">Compare Cars</a></li>
-                <li>
-                    <a href="#">Service Booking
-                        <i id="angle" class="fa-solid fa-angle-down"></i>
-                    </a>
-                    <div class="submenu" style="margin-left: 10px">
-                        <ul style="background-color: transparent">
-                            <li><a href="#">Book my sloat</a></li>
+                <li><a href="#">Service Booking
+                    <i id="angle" class="fa-solid fa-angle-down"></i>
+                </a>
+                    <div class="submenu" style="margin-left:10px;">
+                        <ul style="background-color: transparent;">
+                            <li><a href="appointment.php">Book my sloat</a> </li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="#"> Reviews</a></li>
+                <li><a href="review.php"> Reviews</a></li>
             </ul>
         </div>
     </div>

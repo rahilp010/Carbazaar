@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 280px;
+    scroll-padding-top: 190px;
 }
 
 body {
@@ -959,7 +959,7 @@ td {
 
 .foot23 {
     position: relative;
-    bottom: -271px;
+    bottom: -269px;
     left: -240px;
     border: 1px solid #ccc;
     width: 469px;

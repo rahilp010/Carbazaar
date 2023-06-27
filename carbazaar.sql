@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2023 at 04:31 PM
+-- Generation Time: Jun 26, 2023 at 05:54 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -24,10 +24,29 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `adminuname` varchar(30) NOT NULL,
+  `adminpassword` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`adminuname`, `adminpassword`) VALUES
+('admin', 'admin123');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `appointment`
 --
 
 CREATE TABLE `appointment` (
+  `id` int(20) NOT NULL,
   `manager` varchar(30) NOT NULL,
   `carname` varchar(30) NOT NULL,
   `date` varchar(20) NOT NULL,
@@ -41,10 +60,10 @@ CREATE TABLE `appointment` (
 -- Dumping data for table `appointment`
 --
 
-INSERT INTO `appointment` (`manager`, `carname`, `date`, `time`, `buyername`, `phone`, `address`) VALUES
-('Rahil', 'fortuner', '2023-05-16', '15:43', 'demo', '21', 'demo'),
-('Rahil', 'Thar', '2023-05-17', '12:20', 'Rinkal Tank', '8967869589', 'Adajan,rander road,Surat'),
-('Anas', 'xuv700', '2023-05-19', '19:47', 'Kajal Mishra', '9895905069', 'Udhna,surat');
+INSERT INTO `appointment` (`id`, `manager`, `carname`, `date`, `time`, `buyername`, `phone`, `address`) VALUES
+(1, 'Rahil', 'fortuner', '2023-05-16', '15:43', 'demo', '21', 'demo'),
+(6, 'Rahil', 'ev6', '2023-05-19', '13:30', 'Kajal Mishra', '8878748547', 'Udhana , Surat'),
+(8, 'Anas', 'xuv700', '2023-05-20', '09:00', 'Rinkal Tank', '9878347544', 'Adajan , Surat');
 
 -- --------------------------------------------------------
 
@@ -65,7 +84,8 @@ CREATE TABLE `review` (
 
 INSERT INTO `review` (`id`, `username`, `rating`, `review`) VALUES
 (1, 'demo', '5', 'demo working or not'),
-(2, 'rahilp704', '5', 'One of the best website. the functionality is too good and 24/7 services  is awesome.');
+(6, 'rinkal084', '5', 'I recently had the pleasure of using a car buy and sell service, and I must say that my experience exceeded all expectations. From start to finish, the entire process was incredibly smooth, efficient,'),
+(7, 'margi045', '5', 'First and foremost, the platform provided a user-friendly interface that made browsing and searching for cars a breeze. The search filters were comprehensive, allowing me to narrow down my options bas');
 
 -- --------------------------------------------------------
 
@@ -95,6 +115,18 @@ INSERT INTO `user` (`id`, `Username`, `phone`, `email`, `password`) VALUES
 --
 
 --
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`adminuname`);
+
+--
+-- Indexes for table `appointment`
+--
+ALTER TABLE `appointment`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `review`
 --
 ALTER TABLE `review`
@@ -111,10 +143,16 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `appointment`
+--
+ALTER TABLE `appointment`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
 -- AUTO_INCREMENT for table `review`
 --
 ALTER TABLE `review`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `user`

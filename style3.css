@@ -854,20 +854,6 @@ h1 {
     border-radius: 75px;
 }
 
-.box42 {
-    width: 50%;
-    height: 490px;
-    box-sizing: border-box;
-    padding: 20px 50px;
-    margin: 55px;
-    border: 1px solid #cfcfcf;
-    border-radius: 20px;
-    box-shadow: 0px 10px 15px #cfcfcf;
-    position: relative;
-    top: -610px;
-    float: right;
-}
-
 .bt4 {
     width: 50%;
     height: 60px;
@@ -912,6 +898,7 @@ h1 {
     font-size: 25px;
     font-style: oblique;
     font-weight: 700;
+    z-index: 2;
 }
 
 .us42 {
@@ -1013,6 +1000,7 @@ h1 {
     top: 80px;
     border-radius: 0 10px;
     background-color: #ebebeb;
+    z-index: 1;
 }
 
 .r211 {

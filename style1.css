@@ -3,7 +3,7 @@
 }
 
 :root {
-    scroll-padding-top: 250px;
+    scroll-padding-top: 190px;
 }
 
 html {
@@ -40,21 +40,6 @@ header {
     width: 60%;
 }
 
-.k1 {
-    border: 1px solid rgb(29, 29, 29);
-    border-radius: 25px;
-    position: relative;
-    left: -73%;
-    width: 27%;
-    height: 70%;
-    margin-top: 70px;
-    background-color: white;
-}
-
-.k2 {
-    margin: 30px;
-}
-
 #j1 {
     margin-top: 50px;
     font-size: 30px;
@@ -70,7 +55,7 @@ header {
     border: 1px solid #ccc;
 }
 
-#lan {
+.lan {
     position: absolute;
     border: 0;
     top: 28px;
@@ -90,7 +75,7 @@ header {
     height: 60px;
 }
 
-#lan option {
+.lan option {
     font-size: 20px;
 }
 
@@ -502,7 +487,7 @@ main section h2 {
     z-index: 1;
 }
 
-#lan option {
+.lan option {
     margin: 0px;
     font-size: 17px;
 }
@@ -747,4 +732,129 @@ td {
     font-size: 23px;
     box-sizing: border-box;
     font-style: oblique;
+}
+
+.k1 {
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 25px;
+    position: relative;
+    left: -72%;
+    width: 32%;
+    height: 70%;
+    margin-top: 70px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.slider-frame {
+    overflow: hidden;
+    height: 820px;
+    width: 1200px;
+    margin-left: -450px;
+    margin-top: 0px;
+}
+
+
+/*---------- SLIDE ANIMATION --------------*/
+
+@keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 1200px;
+    }
+    90% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 1200px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 2400px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 1200px;
+    }
+    90% {
+        left: 1200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+.img-container img {
+    width: 60%;
+    position: absolute;
+    height: 560px;
 }

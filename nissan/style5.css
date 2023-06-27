@@ -5,7 +5,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 280px;
+    scroll-padding-top: 190px;
 }
 
 body {
@@ -941,7 +941,7 @@ td {
 .box2 {
     text-align: center;
     border: 1px solid #ccc;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .box2 img {
@@ -958,9 +958,10 @@ td {
 }
 
 .foot23 {
-    border: 1px solid #ccc;
     position: relative;
+    bottom: -59px;
     left: -30px;
+    border: 1px solid #ccc;
     width: 469px;
     height: 63px;
     background: #7690da;
