@@ -55,6 +55,7 @@ th,
 td {
     border-collapse: collapse;
     padding: 10px;
+    background: #ccc;
 }
 
 .delete {
